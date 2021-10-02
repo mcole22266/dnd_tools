@@ -64,7 +64,7 @@ def zombieEncounter(numZombies=1):
 if __name__ == '__main__':
     winners = {}
     numEncounters = 100
-    numZombies = 5
+    numZombies = 2
 
     for i in range(numEncounters):
         winner = zombieEncounter(numZombies)
