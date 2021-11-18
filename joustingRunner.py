@@ -1,6 +1,7 @@
 from utils.dice import rollDice
+from utils.randomizer import greek_name as random_name
 from time import sleep
-from random import randint
+from random import randint, choice
 
 class Character:
 
@@ -107,17 +108,13 @@ def character_creator(randomize=False):
         roll_dice = input('Auto-roll Dice? [Y/n]: ')
 
         if difficulty=='1':
-            ac = randint(13, 16)
-            strength = randint(1, 3)
-            animal_handling = randint(1, 3)
+            difficulty = 'easy'
         elif difficulty=='2':
-            ac = randint(14, 18)
-            strength = randint(2, 4)
-            animal_handling = randint(2, 4)
+            difficulty = 'medium'
         elif difficulty=='3':
-            ac = randint(17, 20)
-            strength = randint(4, 6)
-            animal_handling = randint(4, 6)
+            difficulty = 'hard'
+
+        ac, strength, animal_handling = generateStats(difficulty)
 
     else:
         ac = int(input(f'Input AC for {name}: '))
@@ -196,10 +193,25 @@ def joust(char1, char2, max_hits=3):
         char2.reset_stats()
 
 
-if __name__ == '__main__':
+def charVchar():
+    print()
     # Create Characters
-    char1 = character_creator()
-    char2 = character_creator(randomize=True)
+    randomize_char1 = input('Randomize Character 1? [Y/n] ')
+    randomize_char2 = input('Randomize Character 2? [Y/n] ')
+
+    print()
+
+    if randomize_char1.lower() == 'n':
+        char1 = character_creator(randomize=False)
+    else:
+        char1 = character_creator(randomize=True)
+
+    print()
+
+    if randomize_char2.lower() == 'n':
+        char2 = character_creator(randomize=False)
+    else:
+        char2 = character_creator(randomize=True)
 
     print(char1)
     print()
@@ -207,4 +219,84 @@ if __name__ == '__main__':
 
     joust(char1, char2, max_hits=3)
 
-    # ================================================
+
+def generateStats(diff):
+    if diff.lower()=='easy':
+        ac = randint(12, 15)
+        strength = randint(1, 2)
+        animal_handling = randint(1, 2)
+    elif diff.lower()=='medium':
+        ac = randint(14, 17)
+        strength = randint(2, 4)
+        animal_handling = randint(2, 4)
+    elif diff.lower()=='hard':
+        ac = randint(16, 19)
+        strength = randint(3, 6)
+        animal_handling = randint(3, 6)
+
+    return ac, strength, animal_handling
+
+
+def generateCharacters():
+    characters = []
+    print()
+    print('Provide the number of characters of each difficulty (Easy, Medium, Hard) that you want to have created.')
+    print('For example, to create 5 easy, 10 medium, and 15 hard characters input: 5, 10, 15')
+    num_characters = input('>> ')
+
+    num_easy, num_med, num_hard = num_characters.split(',')
+    num_easy = int(num_easy.strip())
+    num_med = int(num_med.strip())
+    num_hard = int(num_hard.strip())
+
+    for _ in range(num_easy):
+
+        if randint(1, 2) == 1:
+            name = random_name(male=True)
+        else:
+            name = random_name(male=False)
+
+        ac, strength, animal_handling = generateStats('easy')
+        characters.append(Character(name, ac, strength, animal_handling, 'Y'))
+
+    for _ in range(num_med):
+
+        if randint(1, 2) == 1:
+            name = random_name(male=True)
+        else:
+            name = random_name(male=False)
+
+        ac, strength, animal_handling = generateStats('medium')
+        characters.append(Character(name, ac, strength, animal_handling, 'Y'))
+
+    for _ in range(num_hard):
+
+        if randint(1, 2) == 1:
+            name = random_name(male=True)
+        else:
+            name = random_name(male=False)
+
+        ac, strength, animal_handling = generateStats('hard')
+        characters.append(Character(name, ac, strength, animal_handling, 'Y'))
+
+    for character in characters:
+        favorite_maneuver = choice([
+            'None', 'Aggressive', 'Aggressive', 'Aggressive', 'Defensive',
+            'Defensive', 'Defensive', 'Braced', 'High in Saddle'
+            ])
+        print(character)
+        print(f'Favorite Maneuver: {favorite_maneuver}')
+
+if __name__ == '__main__':
+
+    print('\n===== Jousting Runner =====\n')
+
+    print('[1] Character Vs Character')
+    print('[2] Generate Characters')
+
+    option = input('>> ')
+
+    if option == '1':
+        charVchar()
+    elif option == '2':
+        generateCharacters()
