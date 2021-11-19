@@ -97,7 +97,7 @@ AC: {self.ac} | Str: {self.strength} | Animal Handling: {self.animal_handling}
         '''
 
 
-def character_creator(randomize=False):
+def character_creator(randomize=False, simulate=False):
     print()
     name = input('Input name for this character: ')
 
@@ -105,7 +105,10 @@ def character_creator(randomize=False):
         print()
         print('[1] Easy\n[2] Medium\n[3] Hard\n')
         difficulty = input('Difficulty: ')
-        roll_dice = input('Auto-roll Dice? [Y/n]: ')
+        if simulate:
+            roll_dice = 'Y'
+        else:
+            roll_dice = input('Auto-roll Dice? [Y/n]: ')
 
         if difficulty=='1':
             difficulty = 'easy'
@@ -125,7 +128,7 @@ def character_creator(randomize=False):
     char = Character(name, ac, strength, animal_handling, roll_dice)
     return char
 
-def joust(char1, char2, max_hits=3):
+def joust(char1, char2, max_hits=3, simulate=False):
     joust_continues = True
     round = 0
 
@@ -141,8 +144,12 @@ def joust(char1, char2, max_hits=3):
         for i,manuever in enumerate(manuevers):
             print(f'[{i+1}] {manuever}')
         print()
-        char1.maneuver = int(input(f'{char1.name} Manuever: '))
-        char2.maneuver = int(input(f'{char2.name} Manuever: '))
+        if not simulate:
+            char1.maneuver = int(input(f'{char1.name} Manuever: '))
+            char2.maneuver = int(input(f'{char2.name} Manuever: '))
+        else:
+            char1.manuever = choice(manuevers)
+            char2.manuever = choice(manuevers)
 
     #   - Roll for Attack
         print(f'\n{char1.name} Rolls an attack!')
@@ -168,8 +175,9 @@ def joust(char1, char2, max_hits=3):
             if not char2.brace_check() >= char1.hit():
                 char2.dismounted = True
 
-        print(f'Calculating...')
-        sleep(2)
+        if not simulate:
+            print(f'Calculating...')
+            sleep(2)
 
         # Check if jousting should cease
         if char1.dismounted or char2.dismounted or char1.hits_taken == max_hits or char2.hits_taken == max_hits:
@@ -179,45 +187,63 @@ def joust(char1, char2, max_hits=3):
             print(f'Both {char1.name} and {char2.name} have managed to hang on. The jousting continues!')
         elif char1.dismounted and char2.dismounted:
             print('Both characters have been dismounted')
+            if char1.hits_taken>char2.hits_taken:
+                winner = char2
+            elif char2.hits_taken>char1.hits_taken:
+                winner = char1
+            else:
+                winner = None
         elif char1.dismounted:
             print(f'{char1.name} has been dismounted')
+            winner = char2
         elif char2.dismounted:
             print(f'{char2.name} has been dismounted')
+            winner = char1
         elif char1.hits_taken == max_hits:
             print(f'{char1.name} loses after reaching {max_hits} hits')
+            winner = char2
         elif char2.hits_taken == max_hits:
             print(f'{char2.name} loses after reaching {max_hits} hits')
+            winner = char1
 
     #   - Return stats to default
         char1.reset_stats()
         char2.reset_stats()
+    
+    return winner
 
 
-def charVchar():
+def charVchar(max_hits=3, simulate=False, char1=None, char2=None):
     print()
     # Create Characters
-    randomize_char1 = input('Randomize Character 1? [Y/n] ')
-    randomize_char2 = input('Randomize Character 2? [Y/n] ')
+    if not char1:
+        randomize_char1 = input('Randomize Character 1? [Y/n] ')
+    if not char2:
+        randomize_char2 = input('Randomize Character 2? [Y/n] ')
 
     print()
 
-    if randomize_char1.lower() == 'n':
-        char1 = character_creator(randomize=False)
-    else:
-        char1 = character_creator(randomize=True)
+    if not char1:
+        if randomize_char1.lower() == 'n':
+            char1 = character_creator(randomize=False, simulate=simulate)
+        else:
+            char1 = character_creator(randomize=True, simulate=simulate)
 
     print()
 
-    if randomize_char2.lower() == 'n':
-        char2 = character_creator(randomize=False)
-    else:
-        char2 = character_creator(randomize=True)
+    if not char2:
+        if randomize_char2.lower() == 'n':
+            char2 = character_creator(randomize=False, simulate=simulate)
+        else:
+            char2 = character_creator(randomize=True, simulate=simulate)
 
     print(char1)
     print()
     print(char2)
 
-    joust(char1, char2, max_hits=3)
+    winner = joust(char1, char2, max_hits=max_hits, simulate=simulate)
+
+    return winner, char1, char2
 
 
 def generateStats(diff):
@@ -288,15 +314,39 @@ def generateCharacters():
         print(f'Favorite Maneuver: {favorite_maneuver}')
 
 if __name__ == '__main__':
+    max_hits = 10
 
     print('\n===== Jousting Runner =====\n')
 
     print('[1] Character Vs Character')
-    print('[2] Generate Characters')
+    print('[2] Simulate Joust')
+    print('[3] Generate Characters')
 
     option = input('>> ')
 
     if option == '1':
-        charVchar()
+        charVchar(max_hits=max_hits)
     elif option == '2':
+        num_simulations = int(input('\nHow many simulations? '))
+        winners = {}
+        char1 = None
+        char2 = None
+        for _ in range(num_simulations):
+            winner, char1, char2 = charVchar(max_hits=max_hits, simulate=True, char1=char1, char2=char2)
+            if not winner:
+                if winner not in winners.keys():
+                    winners[winner] = 1
+                else:
+                    winners[winner] += 1
+            else:
+                if winner.name not in winners.keys():
+                    winners[winner.name] = 1
+                else:
+                    winners[winner.name] += 1
+            char1.hits_taken = 0
+            char1.dismounted = False
+            char2.hits_taken = 0
+            char2.dismounted = False
+        print(winners)
+    elif option == '3':
         generateCharacters()
