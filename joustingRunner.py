@@ -47,9 +47,9 @@ class Character:
         else:
             to_hit = rollDice(numSides=20, numDice=1, modifier=self.strength)
 
-        if self.maneuver in ('2', '5', '6'):
+        if self.maneuver in (2, 5, 6):
             to_hit += 5
-        elif self.maneuver in ('3', '4'):
+        elif self.maneuver in (3, 4):
             to_hit -= 5
 
         return to_hit
@@ -63,9 +63,9 @@ class Character:
         return damage
 
     def is_hit(self, attack):
-        if self.maneuver=='2':
+        if self.maneuver==2:
             self.ac -= 5
-        elif self.maneuver=='3':
+        elif self.maneuver==3:
             self.ac += 5
 
         if attack >= self.ac:
@@ -75,9 +75,9 @@ class Character:
             return False
 
     def brace_check(self):
-        if self.maneuver=='4':
+        if self.maneuver==4:
             self.animal_handling += 5
-        elif self.maneuver=='5':
+        elif self.maneuver==5:
             self.animal_handling -= 5
 
         # pick highest between strength and animal handling
@@ -152,11 +152,11 @@ def joust(char1, char2, max_hits=3, simulate=False):
             char2.manuever = choice(manuevers)
 
     #   - Roll for Attack
-        print(f'\n{char1.name} Rolls an attack!')
+        print(f'\n{char1.name} ({char1.ac}) Rolls an attack!')
         char1_attack = char1.attack()
         print(f'{char1.name} rolls a {char1_attack}')
 
-        print(f'\n{char2.name} Rolls an attack!')
+        print(f'\n{char2.name} ({char2.ac}) Rolls an attack!')
         char2_attack = char2.attack()
         print(f'{char2.name} rolls a {char2_attack}')
 
