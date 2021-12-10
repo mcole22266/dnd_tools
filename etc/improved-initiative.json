@@ -1,15 +1,15 @@
 {
   "ImprovedInitiative.Spells": "[]",
   "_hjid": "4128764e-0931-40b1-afc0-4f4acf8e0a30",
-  "ImprovedInitiative.PersistentCharacters": "[]",
-  "ImprovedInitiative.Creatures": "[]",
-  "ImprovedInitiative.User.AllowTracking": "true",
   "ImprovedInitiative.SavedEncounters": "[]",
+  "ImprovedInitiative.Creatures": "[]",
+  "ImprovedInitiative.User": "[\"Settings\",\"SkipIntro\",\"AllowTracking\"]",
   "ImprovedInitiative.PlayerCharacters": "[]",
   "ImprovedInitiative.User.Settings": "{\"Commands\":[{\"Name\":\"toggle-menu\",\"KeyBinding\":\"alt+m\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"start-encounter\",\"KeyBinding\":\"alt+r\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"reroll-initiative\",\"KeyBinding\":\"alt+shift+i\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"end-encounter\",\"KeyBinding\":\"shift+alt+r\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"clear-encounter\",\"KeyBinding\":\"alt+shift+del\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"clean-encounter\",\"KeyBinding\":\"alt+del\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"open-library\",\"KeyBinding\":\"alt+a\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"roll-dice\",\"KeyBinding\":\"d\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"quick-add\",\"KeyBinding\":\"alt+q\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"restore-all-player-character-hp\",\"KeyBinding\":\"alt+shift+t\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"player-window\",\"KeyBinding\":\"alt+w\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"toggle-full-screen\",\"KeyBinding\":\"f11\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"next-turn\",\"KeyBinding\":\"n\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"previous-turn\",\"KeyBinding\":\"alt+n\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"save-encounter\",\"KeyBinding\":\"alt+s\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"settings\",\"KeyBinding\":\"?\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"apply-damage\",\"KeyBinding\":\"t\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"apply-healing\",\"KeyBinding\":\"l\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"apply-temporary-hp\",\"KeyBinding\":\"alt+t\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"add-tag\",\"KeyBinding\":\"g\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":true},{\"Name\":\"update-notes\",\"KeyBinding\":\"y\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"remove\",\"KeyBinding\":\"del\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"set-alias\",\"KeyBinding\":\"f2\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"toggle-hidden\",\"KeyBinding\":\"h\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":true},{\"Name\":\"toggle-reveal-ac\",\"KeyBinding\":\"alt+h\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"edit-statblock\",\"KeyBinding\":\"e\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"quick-edit-statblock\",\"KeyBinding\":\"\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"set-initiative\",\"KeyBinding\":\"alt+i\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"link-initiative\",\"KeyBinding\":\"alt+l\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"move-down\",\"KeyBinding\":\"alt+j\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"move-up\",\"KeyBinding\":\"alt+k\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"select-next\",\"KeyBinding\":\"j\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"select-previous\",\"KeyBinding\":\"k\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"open-library-manager\",\"KeyBinding\":\"alt+shift+a\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false}],\"Rules\":{\"RollMonsterHp\":false,\"EnableBossAndMinionHP\":false,\"AllowNegativeHP\":false,\"AutoCheckConcentration\":true,\"AutoGroupInitiative\":\"None\",\"AutoRerollInitiative\":\"No\"},\"TrackerView\":{\"DisplayPortraits\":false,\"DisplayRoundCounter\":false,\"DisplayTurnTimer\":false,\"DisplayDifficulty\":true,\"DisplayHPBar\":false,\"PostCombatStats\":\"None\"},\"PlayerView\":{\"ActiveCombatantOnTop\":false,\"AllowPlayerSuggestions\":false,\"AllowTagSuggestions\":false,\"MonsterHPVerbosity\":\"Colored Label\",\"PlayerHPVerbosity\":\"Actual HP\",\"HideMonstersOutsideEncounter\":false,\"DisplayRoundCounter\":false,\"DisplayTurnTimer\":false,\"DisplayPortraits\":false,\"SplashPortraits\":false,\"CustomCSS\":\"\",\"CustomStyles\":{\"combatantBackground\":\"\",\"combatantText\":\"\",\"activeCombatantIndicator\":\"\",\"font\":\"\",\"headerBackground\":\"\",\"headerText\":\"\",\"mainBackground\":\"\",\"backgroundUrl\":\"\"},\"CustomEncounterId\":\"\"},\"PreloadedContent\":{\"BasicRules\":true,\"Open5eContent\":true},\"Version\":\"2.17.0\"}",
-  "ImprovedInitiative.AutoSavedEncounters.default": "{\"ActiveCombatantId\":null,\"RoundCounter\":2,\"Combatants\":[{\"Id\":\"fu129q6d\",\"PersistentCharacterId\":\"k9hzz7a0\",\"StatBlock\":{\"Id\":\"k9hzz7a0\",\"Name\":\"Tiaq\",\"Path\":\"\",\"Source\":\"\",\"Type\":\"\",\"HP\":{\"Value\":39,\"Notes\":\"\"},\"AC\":{\"Value\":18,\"Notes\":\"\"},\"InitiativeModifier\":0,\"InitiativeAdvantage\":false,\"Speed\":[\"30\"],\"Abilities\":{\"Str\":19,\"Dex\":14,\"Con\":19,\"Int\":11,\"Wis\":12,\"Cha\":14},\"DamageVulnerabilities\":[],\"DamageResistances\":[],\"DamageImmunities\":[],\"ConditionImmunities\":[],\"Saves\":[],\"Skills\":[],\"Senses\":[\"Passive Perception (WIS) 13\",\"Passive Investigation (INT) 10\",\"Passive Insight (WIS) 13\"],\"Languages\":[\"Common\",\"Draconic\"],\"Challenge\":\"3\",\"Traits\":[],\"Actions\":[],\"Reactions\":[],\"LegendaryActions\":[],\"Description\":\"\",\"Player\":\"player\",\"Version\":\"2.17.0\",\"ImageURL\":\"\"},\"CurrentHP\":39,\"CurrentNotes\":\"\",\"TemporaryHP\":0,\"Initiative\":22,\"InitiativeGroup\":null,\"Alias\":\"\",\"IndexLabel\":1,\"Tags\":[],\"Hidden\":false,\"RevealedAC\":false,\"RoundCounter\":2,\"InterfaceVersion\":\"3.2.5\",\"ElapsedSeconds\":494},{\"Id\":\"ft2kgh42\",\"PersistentCharacterId\":\"zp2v3886\",\"StatBlock\":{\"Id\":\"zp2v3886\",\"Name\":\"Sora (Riverbend - Wolf)\",\"Path\":\"\",\"Source\":\"\",\"Type\":\"Medium beast, unaligned\",\"HP\":{\"Value\":16,\"Notes\":\"(3d8+2)\"},\"AC\":{\"Value\":13,\"Notes\":\"natural armor\"},\"InitiativeModifier\":0,\"InitiativeAdvantage\":false,\"Speed\":[\"40 ft\"],\"Abilities\":{\"Str\":12,\"Dex\":15,\"Con\":12,\"Int\":3,\"Wis\":12,\"Cha\":6},\"DamageVulnerabilities\":[],\"DamageResistances\":[],\"DamageImmunities\":[],\"ConditionImmunities\":[],\"Saves\":[],\"Skills\":[{\"Name\":\"Perception\",\"Modifier\":3},{\"Name\":\"Stealth\",\"Modifier\":4}],\"Senses\":[\"Passive Perception (WIS) 13\"],\"Languages\":[],\"Challenge\":\"2\",\"Traits\":[{\"Name\":\"Keen Hearing and Sight\",\"Content\":\"The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell\",\"Usage\":\"\"},{\"Name\":\"Pack Tactics\",\"Content\":\"The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.\",\"Usage\":\"\"}],\"Actions\":[{\"Name\":\"Bite\",\"Content\":\"_Melee Weapon Attack:_ +4 to hit, reach 5ft., one target.\\n_Hit:_ 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength Saving Throw or be knocked prone.\",\"Usage\":\"\"}],\"Reactions\":[{\"Name\":\"Defender (Warrior Sidekick Lvl 1)\",\"Content\":\"As a reaction, impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the wolf, provided the sidekick can see the attacker.\",\"Usage\":\"\"}],\"LegendaryActions\":[{\"Name\":\"Second Wind (Warrior Sidekick Lvl 2)\",\"Content\":\"As a bonus action, regain hit points equal to 1d10 + its level. Once this feature is used, a short or long rest is required to regain this feature\",\"Usage\":\"\"}],\"Description\":\"\",\"Player\":\"player\",\"Version\":\"3.1.0\",\"ImageURL\":\"https://www.dndbeyond.com/avatars/thumbnails/16/482/1000/1000/636376300223855327.jpeg\"},\"CurrentHP\":16,\"CurrentNotes\":\"\",\"TemporaryHP\":0,\"Initiative\":16,\"InitiativeGroup\":null,\"Alias\":\"\",\"IndexLabel\":1,\"Tags\":[],\"Hidden\":false,\"RevealedAC\":false,\"RoundCounter\":1,\"InterfaceVersion\":\"3.2.5\",\"ElapsedSeconds\":1},{\"Id\":\"ju3ect64\",\"PersistentCharacterId\":\"gmjt3sa9\",\"StatBlock\":{\"Id\":\"gmjt3sa9\",\"Name\":\"Lane Twoswift (Greedsfall - Thief)\",\"Path\":\"\",\"Source\":\"Basic Rules\",\"Type\":\"Medium humanoid (any race), any alignment\",\"HP\":{\"Value\":34,\"Notes\":\"(6d8+3)\"},\"AC\":{\"Value\":13,\"Notes\":\"(leather armor)\"},\"InitiativeModifier\":6,\"InitiativeAdvantage\":false,\"Speed\":[\"30 ft.\"],\"Abilities\":{\"Str\":11,\"Dex\":14,\"Con\":12,\"Int\":11,\"Wis\":13,\"Cha\":11},\"DamageVulnerabilities\":[],\"DamageResistances\":[],\"DamageImmunities\":[],\"ConditionImmunities\":[],\"Saves\":[{\"Name\":\"Dexterity\",\"Modifier\":4}],\"Skills\":[{\"Name\":\"Investigation\",\"Modifier\":4},{\"Name\":\"Perception\",\"Modifier\":5},{\"Name\":\"Stealth\",\"Modifier\":6},{\"Name\":\"Sleight of Hand\",\"Modifier\":7},{\"Name\":\"Acrobatics\",\"Modifier\":4}],\"Senses\":[],\"Languages\":[\"any one language (usually Common)\"],\"Challenge\":\"1/2\",\"Traits\":[{\"Name\":\"Keen Hearing and Sight\",\"Content\":\"The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.\",\"Usage\":\"\"}],\"Actions\":[{\"Name\":\"Multiattack\",\"Content\":\"The scout makes two melee attacks or two ranged attacks.\",\"Usage\":\"\"},{\"Name\":\"Dagger\",\"Content\":\"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.\",\"Usage\":\"\"},{\"Name\":\"Crossbow, Hand\",\"Content\":\"Ranged Weapon Attack: +4 to hit, ranged 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.\",\"Usage\":\"\"},{\"Name\":\"Rapier\",\"Content\":\"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.\",\"Usage\":\"\"},{\"Name\":\"Lance\",\"Content\":\"Melee Weapon Attack: +4 to hit, reach 10ft., one target. Hit: 8 (1d12 + 2) piercing damage\\n\\nSpecial: You have disadvantage when you use a lance to Attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.\",\"Usage\":\"\"}],\"BonusActions\":[],\"Reactions\":[],\"LegendaryActions\":[{\"Name\":\"Helpful\",\"Content\":\"The sidekick is adept at giving well-timed assistance; the sidekick can take the Help action as a bonus action.\",\"Usage\":\"\"},{\"Name\":\"Cunning Action\",\"Content\":\"The sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the Dash, Disengage, or Hide Action as a Bonus Action\",\"Usage\":\"\"}],\"MythicActions\":[],\"Description\":\"\",\"Player\":\"\",\"Version\":\"3.2.5\",\"ImageURL\":\"\"},\"CurrentHP\":34,\"CurrentNotes\":\"\",\"TemporaryHP\":0,\"Initiative\":0,\"InitiativeGroup\":null,\"Alias\":\"\",\"IndexLabel\":1,\"Tags\":[],\"Hidden\":false,\"RevealedAC\":false,\"RoundCounter\":0,\"InterfaceVersion\":\"3.2.5\",\"ElapsedSeconds\":0},{\"Id\":\"ja95zp2j\",\"PersistentCharacterId\":\"zmhhcqpi\",\"StatBlock\":{\"Id\":\"zmhhcqpi\",\"Name\":\"Bartholomew Greyheart (Greedsfall - Jouster)\",\"Path\":\"\",\"Source\":\"\",\"Type\":\"humanoid (Human)\",\"HP\":{\"Value\":75,\"Notes\":\"(10d8+30)\"},\"AC\":{\"Value\":18,\"Notes\":\"(Plate Armor)\"},\"InitiativeModifier\":0,\"InitiativeAdvantage\":false,\"Speed\":[\"walk 30 ft.\"],\"Abilities\":{\"Str\":19,\"Dex\":12,\"Con\":17,\"Int\":10,\"Wis\":14,\"Cha\":8},\"DamageVulnerabilities\":[],\"DamageResistances\":[\"fire\"],\"DamageImmunities\":[],\"ConditionImmunities\":[],\"Saves\":[],\"Skills\":[{\"Name\":\"Athletics\",\"Modifier\":4},{\"Name\":\"Animal Handling\",\"Modifier\":5}],\"Senses\":[\"passive Perception 12\"],\"Languages\":[\"Common\"],\"Challenge\":\"2\",\"Traits\":[{\"Name\":\"Cavalry Charge\",\"Content\":\"If the dragonborn moves at least 20 feet straight toward a creature while mounted and then hits with a lance attack on the same turn, it can make a trample attack against that creature as a bonus action.\"}],\"Actions\":[{\"Name\":\"Lance\",\"Content\":\"Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 8 (1d12 + 2) piercing damage.\"},{\"Name\":\"Heavy Crossbow\",\"Content\":\"Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.\"},{\"Name\":\"Trample (Mounted Only)\",\"Content\":\"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage and the target must succeed on a DC 13 Strength saving throw or be knocked prone.\"}],\"BonusActions\":[],\"Reactions\":[],\"LegendaryActions\":[],\"MythicActions\":[],\"Description\":\"\",\"Player\":\"\",\"Version\":\"3.2.5\",\"ImageURL\":\"\"},\"CurrentHP\":75,\"CurrentNotes\":\"\",\"TemporaryHP\":0,\"Initiative\":0,\"InitiativeGroup\":null,\"Alias\":\"\",\"IndexLabel\":1,\"Tags\":[],\"Hidden\":false,\"RevealedAC\":false,\"RoundCounter\":0,\"InterfaceVersion\":\"3.2.5\",\"ElapsedSeconds\":0}],\"BackgroundImageUrl\":null,\"ElapsedSeconds\":0}",
+  "ImprovedInitiative.User.AllowTracking": "true",
+  "ImprovedInitiative.AutoSavedEncounters.default": "{\"ActiveCombatantId\":null,\"RoundCounter\":1,\"Combatants\":[],\"BackgroundImageUrl\":null,\"ElapsedSeconds\":0}",
   "ImprovedInitiative.User.SkipIntro": "true",
-  "ImprovedInitiative.User": "[\"Settings\",\"SkipIntro\",\"AllowTracking\"]",
+  "ImprovedInitiative.PersistentCharacters": "[]",
   "ImprovedInitiative.AutoSavedEncounters": "[\"default\"]",
   "Creatures.Creatures.Creatures.2fp8gprz": {
     "Id": "2fp8gprz",
@@ -245,12 +245,147 @@
     "ImageURL": "",
     "LastUpdateMs": 1637448856798
   },
-  "PersistentCharacters.PersistentCharacters.2j00vy6e": {
-    "Id": "2j00vy6e",
-    "Version": "2.17.0",
-    "Name": "Stefan (Goodsprings - Hunter)",
+  "PersistentCharacters.04mzuin2": {
+    "Id": "04mzuin2",
+    "Version": "3.2.6",
+    "Name": "Aluka",
     "Path": "",
-    "LastUpdateMs": 1637448856799,
+    "LastUpdateMs": 1638544885765,
+    "CurrentHP": 19,
+    "StatBlock": {
+      "Id": "04mzuin2",
+      "Name": "Aluka",
+      "Path": "",
+      "Source": "Systems Reference Document",
+      "Type": "humanoid (any race)",
+      "HP": {
+        "Value": 19,
+        "Notes": "(3d8)"
+      },
+      "AC": {
+        "Value": 13,
+        "Notes": "(leather armor)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 11,
+        "Dex": 14,
+        "Con": 12,
+        "Int": 11,
+        "Wis": 13,
+        "Cha": 11
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "Dexterity",
+          "Modifier": 4
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Nature",
+          "Modifier": 6
+        },
+        {
+          "Name": "Perception",
+          "Modifier": 5
+        },
+        {
+          "Name": "Stealth",
+          "Modifier": 8
+        },
+        {
+          "Name": "Survival",
+          "Modifier": 7
+        },
+        {
+          "Name": "Medicine",
+          "Modifier": 3
+        },
+        {
+          "Name": "Acrobatics",
+          "Modifier": 4
+        }
+      ],
+      "Senses": [
+        "passive Perception 15"
+      ],
+      "Languages": [
+        "Reghed",
+        "_Some_ Common"
+      ],
+      "Challenge": "2",
+      "Traits": [
+        {
+          "Name": "Keen Hearing and Sight",
+          "Content": "Aluka has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+        },
+        {
+          "Name": "Bonus Proficiencies",
+          "Content": "Aluka is proficient with Leather Armor and Simple Weapons",
+          "Usage": ""
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "Aluka makes two melee attacks or two ranged attacks."
+        },
+        {
+          "Name": "Spear",
+          "Content": "_Melee Weapon Attack:_ +4 to hit, reach 10 (20/60) ft., one target. _Hit:_ 5 (1d6 + 2) piercing damage."
+        },
+        {
+          "Name": "Dagger",
+          "Content": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4 + 2) piercing damage.",
+          "Usage": ""
+        },
+        {
+          "Name": "Shortbow",
+          "Content": "Ranged Weapon Attack: +4 to hit, ranged 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        }
+      ],
+      "BonusActions": [
+        {
+          "Name": "Helpful",
+          "Content": "Aluka is adept at giving well-timed assistance and can take the Help action as a bonus action",
+          "Usage": ""
+        },
+        {
+          "Name": "Cunning Action",
+          "Content": "Aluka's agility allows her to act speedily. On her turn in combat, she can take the Dash, Disengage, or Hide actions as a bonus action.",
+          "Usage": ""
+        }
+      ],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "3.2.6",
+      "ImageURL": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F52fb3834-f3b1-4273-a53e-0189b1d9cc08%2FAluka.png?table=block&id=20609f0c-105d-4631-88be-3177639a64b2&spaceId=cdf14a20-1e9c-4bf5-8b47-217c26991671&width=2000&userId=fcce57b3-b69e-46cd-8b20-5f86f950eb92&cache=v2"
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.2j00vy6e": {
+    "Name": "Stefan (Goodsprings - Hunter)",
+    "Path": "Archive",
+    "Id": "2j00vy6e",
+    "LastUpdateMs": 1638148274050,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": "1"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "2.17.0",
     "CurrentHP": 32,
     "StatBlock": {
       "Id": "2j00vy6e",
@@ -315,12 +450,111 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.PersistentCharacters.9q7ebh6r": {
-    "Id": "9q7ebh6r",
-    "Version": "2.17.0",
-    "Name": "Sir Elliot Roland (Riverbend - Sergeant of the Guard)",
+  "PersistentCharacters.8najh0q5": {
+    "Id": "8najh0q5",
+    "Version": "3.2.6",
+    "Name": "Sildar Hallwinter",
     "Path": "",
-    "LastUpdateMs": 1637448856799,
+    "LastUpdateMs": 1639179395151,
+    "CurrentHP": 27,
+    "StatBlock": {
+      "Id": "8najh0q5",
+      "Name": "Sildar Hallwinter",
+      "Path": "",
+      "Source": "",
+      "Type": "",
+      "HP": {
+        "Value": 27,
+        "Notes": "(5d8 + 5)"
+      },
+      "AC": {
+        "Value": 10,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [],
+      "Abilities": {
+        "Str": 13,
+        "Dex": 10,
+        "Con": 12,
+        "Int": 10,
+        "Wis": 11,
+        "Cha": 10
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "STR",
+          "Modifier": 3
+        },
+        {
+          "Name": "CON",
+          "Modifier": 3
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Perception",
+          "Modifier": 2
+        }
+      ],
+      "Senses": [
+        "Passive Perception 12"
+      ],
+      "Languages": [
+        "Common"
+      ],
+      "Challenge": "1",
+      "Traits": [],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "Sildar makes two melee attacks",
+          "Usage": ""
+        },
+        {
+          "Name": "Longsword",
+          "Content": "_Melee Weapon Attack_: +3 to hit, reach 5ft., one target. _Hit_: 5 (1d8 + 1) slashing damage.",
+          "Usage": ""
+        },
+        {
+          "Name": "Heavy Crossbow",
+          "Content": "_Ranged Weapon Attack:_ +2 to hit, range 100 ft./400 ft., one target. _Hit:_ 5 (1d10) piercing damage.",
+          "Usage": ""
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [
+        {
+          "Name": "Parry",
+          "Content": "When an attacker hits Sildar with a melee attack and Sildar can see the attacker, he can roll 1d6 and add the number rolled to his AC against the triggering attack, provided that he’s wielding a melee weapon.",
+          "Usage": ""
+        }
+      ],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "Sildar Hallwinter is a retired soldier and sellsword who hails from the city of Neverwinter. He is a loyal member of the Lords’ Alliance, a political organization that unites the various free cities and towns of the North.",
+      "Player": "player",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.9q7ebh6r": {
+    "Name": "Sir Elliot Roland (Riverbend - Sergeant of the Guard)",
+    "Path": "Archive",
+    "Id": "9q7ebh6r",
+    "LastUpdateMs": 1638148274048,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": "3"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "2.17.0",
     "CurrentHP": 0,
     "StatBlock": {
       "Id": "9q7ebh6r",
@@ -394,124 +628,6 @@
         {
           "Name": "Action Surge",
           "Content": "_(3 charges per long rest)_ The captain makes two melee attacks.",
-          "Usage": ""
-        }
-      ],
-      "Description": "",
-      "Player": "player",
-      "Version": "2.17.0",
-      "ImageURL": ""
-    },
-    "Notes": ""
-  },
-  "PersistentCharacters.PersistentCharacters.b7kx8fqq": {
-    "Id": "b7kx8fqq",
-    "Version": "2.17.0",
-    "Name": "Vivian Cross (Riverbend - Inspector)",
-    "Path": "",
-    "LastUpdateMs": 1637448856799,
-    "CurrentHP": 20,
-    "StatBlock": {
-      "Id": "b7kx8fqq",
-      "Name": "Vivian Cross (Riverbend - Inspector)",
-      "Path": "",
-      "Source": "",
-      "Type": "",
-      "HP": {
-        "Value": 21,
-        "Notes": "(7d6 + 0)"
-      },
-      "AC": {
-        "Value": 12,
-        "Notes": ""
-      },
-      "InitiativeModifier": 0,
-      "InitiativeAdvantage": false,
-      "Speed": [
-        "30 ft"
-      ],
-      "Abilities": {
-        "Str": 11,
-        "Dex": 14,
-        "Con": 10,
-        "Int": 14,
-        "Wis": 12,
-        "Cha": 16
-      },
-      "DamageVulnerabilities": [],
-      "DamageResistances": [],
-      "DamageImmunities": [],
-      "ConditionImmunities": [],
-      "Saves": [],
-      "Skills": [
-        {
-          "Name": "Deception",
-          "Modifier": 5
-        },
-        {
-          "Name": "Insight",
-          "Modifier": 4
-        },
-        {
-          "Name": "Investigation",
-          "Modifier": 5
-        },
-        {
-          "Name": "Perception",
-          "Modifier": 5
-        },
-        {
-          "Name": "Persuasion",
-          "Modifier": 5
-        },
-        {
-          "Name": "Stealth",
-          "Modifier": 2
-        }
-      ],
-      "Senses": [
-        "Passive Perception (WIS) 16"
-      ],
-      "Languages": [
-        "Common",
-        "Elvish",
-        "Dwarvish"
-      ],
-      "Challenge": "2",
-      "Traits": [
-        {
-          "Name": "Keen Hearing and Sight",
-          "Content": "The Investigator has advantage on Wisdom (Perception) checks that rely on hearing or sight",
-          "Usage": ""
-        }
-      ],
-      "Actions": [
-        {
-          "Name": "Whip",
-          "Content": "_Melee Weapon Attack:_ +4 to hit, reach 10 ft., one target. Hit: 4 (1d4 + 2) slashing damage",
-          "Usage": ""
-        },
-        {
-          "Name": "Dagger",
-          "Content": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage",
-          "Usage": ""
-        },
-        {
-          "Name": "Hand Crossbow",
-          "Content": "_Ranged Weapon Attack:_ +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage",
-          "Usage": ""
-        }
-      ],
-      "Reactions": [],
-      "LegendaryActions": [
-        {
-          "Name": "Cunning Action",
-          "Content": "On each of its turns, the investigator can use a bonus action to take the Dash, Disengage, or Hide Action",
-          "Usage": ""
-        },
-        {
-          "Name": "Helpful",
-          "Content": "The Investigator is adept at giving well-timed assistance; the investigator can take the Help action as a bonus action",
           "Usage": ""
         }
       ],
@@ -676,12 +792,584 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.PersistentCharacters.k2k3qthx": {
-    "Id": "k2k3qthx",
+  "PersistentCharacters.PersistentCharacters.npbkq9av": {
+    "Id": "npbkq9av",
     "Version": "2.17.0",
-    "Name": "Pavlos Rossou (Gladdhead - Escaped Guard)",
-    "Path": "",
+    "Name": "Underfoot",
+    "Path": "Sample Player Characters",
     "LastUpdateMs": 1637448856799,
+    "CurrentHP": 9,
+    "StatBlock": {
+      "Id": "npbkq9av",
+      "Name": "Underfoot",
+      "Path": "",
+      "Source": "",
+      "Type": "Lightfoot Halfling Rogue",
+      "HP": {
+        "Value": 9,
+        "Notes": ""
+      },
+      "AC": {
+        "Value": 14,
+        "Notes": "(leather armor)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "25 ft."
+      ],
+      "Abilities": {
+        "Str": 8,
+        "Dex": 16,
+        "Con": 12,
+        "Cha": 16,
+        "Int": 13,
+        "Wis": 10
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "Dex",
+          "Modifier": 5
+        },
+        {
+          "Name": "Int",
+          "Modifier": 3
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Perception",
+          "Modifier": 0
+        },
+        {
+          "Name": "Insight",
+          "Modifier": 0
+        }
+      ],
+      "Senses": [],
+      "Languages": [
+        "Common",
+        "Halfling"
+      ],
+      "Challenge": "1",
+      "Traits": [],
+      "Actions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "2.17.0",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.PersistentCharacters.ru3mpxp5": {
+    "Id": "ru3mpxp5",
+    "Version": "2.17.0",
+    "Name": "Shem",
+    "Path": "Sample Player Characters",
+    "LastUpdateMs": 1637448856799,
+    "CurrentHP": 11,
+    "StatBlock": {
+      "Id": "ru3mpxp5",
+      "Name": "Shem",
+      "Path": "",
+      "Source": "",
+      "Type": "Hill Dwarf Cleric",
+      "HP": {
+        "Value": 11,
+        "Notes": ""
+      },
+      "AC": {
+        "Value": 18,
+        "Notes": "(chain mail, shield)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "25 ft."
+      ],
+      "Abilities": {
+        "Str": 14,
+        "Dex": 8,
+        "Con": 15,
+        "Cha": 12,
+        "Int": 10,
+        "Wis": 16
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "Wis",
+          "Modifier": 5
+        },
+        {
+          "Name": "Cha",
+          "Modifier": 3
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Perception",
+          "Modifier": 3
+        },
+        {
+          "Name": "Insight",
+          "Modifier": 3
+        }
+      ],
+      "Senses": [],
+      "Languages": [
+        "Common",
+        "Dwarvish"
+      ],
+      "Challenge": "1",
+      "Traits": [],
+      "Actions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "2.17.0",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.b7kx8fqq": {
+    "Name": "Vivian Cross (Riverbend - Inspector)",
+    "Path": "Archive",
+    "Id": "b7kx8fqq",
+    "LastUpdateMs": 1638148274059,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": "2"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "2.17.0",
+    "CurrentHP": 20,
+    "StatBlock": {
+      "Id": "b7kx8fqq",
+      "Name": "Vivian Cross (Riverbend - Inspector)",
+      "Path": "",
+      "Source": "",
+      "Type": "",
+      "HP": {
+        "Value": 21,
+        "Notes": "(7d6 + 0)"
+      },
+      "AC": {
+        "Value": 12,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "30 ft"
+      ],
+      "Abilities": {
+        "Str": 11,
+        "Dex": 14,
+        "Con": 10,
+        "Int": 14,
+        "Wis": 12,
+        "Cha": 16
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [
+        {
+          "Name": "Deception",
+          "Modifier": 5
+        },
+        {
+          "Name": "Insight",
+          "Modifier": 4
+        },
+        {
+          "Name": "Investigation",
+          "Modifier": 5
+        },
+        {
+          "Name": "Perception",
+          "Modifier": 5
+        },
+        {
+          "Name": "Persuasion",
+          "Modifier": 5
+        },
+        {
+          "Name": "Stealth",
+          "Modifier": 2
+        }
+      ],
+      "Senses": [
+        "Passive Perception (WIS) 16"
+      ],
+      "Languages": [
+        "Common",
+        "Elvish",
+        "Dwarvish"
+      ],
+      "Challenge": "2",
+      "Traits": [
+        {
+          "Name": "Keen Hearing and Sight",
+          "Content": "The Investigator has advantage on Wisdom (Perception) checks that rely on hearing or sight",
+          "Usage": ""
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Whip",
+          "Content": "_Melee Weapon Attack:_ +4 to hit, reach 10 ft., one target. Hit: 4 (1d4 + 2) slashing damage",
+          "Usage": ""
+        },
+        {
+          "Name": "Dagger",
+          "Content": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage",
+          "Usage": ""
+        },
+        {
+          "Name": "Hand Crossbow",
+          "Content": "_Ranged Weapon Attack:_ +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage",
+          "Usage": ""
+        }
+      ],
+      "Reactions": [],
+      "LegendaryActions": [
+        {
+          "Name": "Cunning Action",
+          "Content": "On each of its turns, the investigator can use a bonus action to take the Dash, Disengage, or Hide Action",
+          "Usage": ""
+        },
+        {
+          "Name": "Helpful",
+          "Content": "The Investigator is adept at giving well-timed assistance; the investigator can take the Help action as a bonus action",
+          "Usage": ""
+        }
+      ],
+      "Description": "",
+      "Player": "player",
+      "Version": "2.17.0",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.cpcysy40": {
+    "Id": "cpcysy40",
+    "Version": "3.2.6",
+    "Name": "Trisleenyas Ofandrus",
+    "Path": "",
+    "LastUpdateMs": 1639179583280,
+    "CurrentHP": 10,
+    "StatBlock": {
+      "Id": "cpcysy40",
+      "Name": "Trisleenyas Ofandrus",
+      "Path": "",
+      "Source": "",
+      "Type": "",
+      "HP": {
+        "Value": 10,
+        "Notes": ""
+      },
+      "AC": {
+        "Value": 12,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [],
+      "Abilities": {
+        "Str": 13,
+        "Dex": 12,
+        "Con": 14,
+        "Int": 13,
+        "Wis": 15,
+        "Cha": 8
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [],
+      "Senses": [],
+      "Languages": [],
+      "Challenge": "",
+      "Traits": [],
+      "Actions": [],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.dej38nuf": {
+    "Id": "dej38nuf",
+    "Version": "3.2.6",
+    "Name": "Will (Torinn Delmirev)",
+    "Path": "",
+    "LastUpdateMs": 1639179615613,
+    "CurrentHP": 12,
+    "StatBlock": {
+      "Id": "dej38nuf",
+      "Name": "Will (Torinn Delmirev)",
+      "Path": "",
+      "Source": "",
+      "Type": "",
+      "HP": {
+        "Value": 12,
+        "Notes": ""
+      },
+      "AC": {
+        "Value": 18,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [],
+      "Abilities": {
+        "Str": 16,
+        "Dex": 12,
+        "Con": 15,
+        "Int": 8,
+        "Wis": 10,
+        "Cha": 14
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [],
+      "Senses": [],
+      "Languages": [],
+      "Challenge": "",
+      "Traits": [],
+      "Actions": [],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.g32aqshm": {
+    "Id": "g32aqshm",
+    "Version": "3.2.6",
+    "Name": "Milo Switi",
+    "Path": "",
+    "LastUpdateMs": 1639179545018,
+    "CurrentHP": 9,
+    "StatBlock": {
+      "Id": "g32aqshm",
+      "Name": "Milo Switi",
+      "Path": "",
+      "Source": "",
+      "Type": "",
+      "HP": {
+        "Value": 9,
+        "Notes": ""
+      },
+      "AC": {
+        "Value": 14,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [],
+      "Abilities": {
+        "Str": 10,
+        "Dex": 17,
+        "Con": 13,
+        "Int": 15,
+        "Wis": 8,
+        "Cha": 12
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [],
+      "Senses": [],
+      "Languages": [],
+      "Challenge": "",
+      "Traits": [],
+      "Actions": [],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.gmjt3sa9": {
+    "Id": "gmjt3sa9",
+    "Name": "Lane Twoswift (Greedsfall - Thief)",
+    "Path": "Archive",
+    "Link": "PersistentCharacters",
+    "SearchHint": "Medium humanoid (any race), any alignment",
+    "FilterDimensions": {
+      "Level": "3"
+    },
+    "LastUpdateMs": 1638148274030,
+    "Version": "3.2.5",
+    "CurrentHP": 5,
+    "StatBlock": {
+      "Id": "gmjt3sa9",
+      "Name": "Lane Twoswift (Greedsfall - Thief)",
+      "Path": "",
+      "Source": "Basic Rules",
+      "Type": "Medium humanoid (any race), any alignment",
+      "HP": {
+        "Value": 34,
+        "Notes": "(6d8+3)"
+      },
+      "AC": {
+        "Value": 13,
+        "Notes": "(leather armor)"
+      },
+      "InitiativeModifier": 6,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "30 ft."
+      ],
+      "Abilities": {
+        "Str": 11,
+        "Dex": 14,
+        "Con": 12,
+        "Int": 11,
+        "Wis": 13,
+        "Cha": 11
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "Dexterity",
+          "Modifier": 4
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Investigation",
+          "Modifier": 4
+        },
+        {
+          "Name": "Perception",
+          "Modifier": 5
+        },
+        {
+          "Name": "Stealth",
+          "Modifier": 6
+        },
+        {
+          "Name": "Sleight of Hand",
+          "Modifier": 7
+        },
+        {
+          "Name": "Acrobatics",
+          "Modifier": 4
+        }
+      ],
+      "Senses": [],
+      "Languages": [
+        "any one language (usually Common)"
+      ],
+      "Challenge": "1/2",
+      "Traits": [
+        {
+          "Name": "Keen Hearing and Sight",
+          "Content": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+          "Usage": ""
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "The scout makes two melee attacks or two ranged attacks.",
+          "Usage": ""
+        },
+        {
+          "Name": "Dagger",
+          "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+          "Usage": ""
+        },
+        {
+          "Name": "Crossbow, Hand",
+          "Content": "Ranged Weapon Attack: +4 to hit, ranged 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+          "Usage": ""
+        },
+        {
+          "Name": "Rapier",
+          "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+          "Usage": ""
+        },
+        {
+          "Name": "Lance",
+          "Content": "Melee Weapon Attack: +4 to hit, reach 10ft., one target. Hit: 8 (1d12 + 2) piercing damage\n\nSpecial: You have disadvantage when you use a lance to Attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.",
+          "Usage": ""
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [
+        {
+          "Name": "Helpful",
+          "Content": "The sidekick is adept at giving well-timed assistance; the sidekick can take the Help action as a bonus action.",
+          "Usage": ""
+        },
+        {
+          "Name": "Cunning Action",
+          "Content": "The sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the Dash, Disengage, or Hide Action as a Bonus Action",
+          "Usage": ""
+        }
+      ],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.5",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.k2k3qthx": {
+    "Name": "Pavlos Rossou (Gladdhead - Escaped Guard)",
+    "Path": "Archive",
+    "Id": "k2k3qthx",
+    "LastUpdateMs": 1638148274046,
+    "SearchHint": "Medium humanoid (any race), any alignment",
+    "FilterDimensions": {
+      "Level": ""
+    },
+    "Link": "PersistentCharacters",
+    "Version": "2.17.0",
     "CurrentHP": 15,
     "StatBlock": {
       "Id": "k2k3qthx",
@@ -750,12 +1438,80 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.PersistentCharacters.ksbtsaxa": {
-    "Id": "ksbtsaxa",
-    "Version": "2.17.0",
-    "Name": "Emely (Goodsprings - Hunter)",
+  "PersistentCharacters.k9hzz7a0": {
+    "Id": "k9hzz7a0",
+    "Version": "3.2.6",
+    "Name": "Tiaq",
     "Path": "",
-    "LastUpdateMs": 1637448856799,
+    "LastUpdateMs": 1638544837684,
+    "CurrentHP": 22,
+    "StatBlock": {
+      "Id": "k9hzz7a0",
+      "Name": "Tiaq",
+      "Path": "",
+      "Source": "",
+      "Type": "",
+      "HP": {
+        "Value": 24,
+        "Notes": ""
+      },
+      "AC": {
+        "Value": 18,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "30"
+      ],
+      "Abilities": {
+        "Str": 20,
+        "Dex": 14,
+        "Con": 19,
+        "Int": 15,
+        "Wis": 12,
+        "Cha": 14
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [],
+      "Senses": [
+        "Passive Perception (WIS) 13",
+        "Passive Investigation (INT) 14",
+        "Passive Insight (WIS) 11"
+      ],
+      "Languages": [
+        "Common",
+        "Draconic"
+      ],
+      "Challenge": "2",
+      "Traits": [],
+      "Actions": [],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.ksbtsaxa": {
+    "Name": "Emely (Goodsprings - Hunter)",
+    "Path": "Archive",
+    "Id": "ksbtsaxa",
+    "LastUpdateMs": 1638148274041,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": "1"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "2.17.0",
     "CurrentHP": 16,
     "StatBlock": {
       "Id": "ksbtsaxa",
@@ -849,87 +1605,17 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.PersistentCharacters.npbkq9av": {
-    "Id": "npbkq9av",
-    "Version": "2.17.0",
-    "Name": "Underfoot",
-    "Path": "Sample Player Characters",
-    "LastUpdateMs": 1637448856799,
-    "CurrentHP": 9,
-    "StatBlock": {
-      "Id": "npbkq9av",
-      "Name": "Underfoot",
-      "Path": "",
-      "Source": "",
-      "Type": "Lightfoot Halfling Rogue",
-      "HP": {
-        "Value": 9,
-        "Notes": ""
-      },
-      "AC": {
-        "Value": 14,
-        "Notes": "(leather armor)"
-      },
-      "InitiativeModifier": 0,
-      "InitiativeAdvantage": false,
-      "Speed": [
-        "25 ft."
-      ],
-      "Abilities": {
-        "Str": 8,
-        "Dex": 16,
-        "Con": 12,
-        "Cha": 16,
-        "Int": 13,
-        "Wis": 10
-      },
-      "DamageVulnerabilities": [],
-      "DamageResistances": [],
-      "DamageImmunities": [],
-      "ConditionImmunities": [],
-      "Saves": [
-        {
-          "Name": "Dex",
-          "Modifier": 5
-        },
-        {
-          "Name": "Int",
-          "Modifier": 3
-        }
-      ],
-      "Skills": [
-        {
-          "Name": "Perception",
-          "Modifier": 0
-        },
-        {
-          "Name": "Insight",
-          "Modifier": 0
-        }
-      ],
-      "Senses": [],
-      "Languages": [
-        "Common",
-        "Halfling"
-      ],
-      "Challenge": "1",
-      "Traits": [],
-      "Actions": [],
-      "Reactions": [],
-      "LegendaryActions": [],
-      "Description": "",
-      "Player": "player",
-      "Version": "2.17.0",
-      "ImageURL": ""
-    },
-    "Notes": ""
-  },
-  "PersistentCharacters.PersistentCharacters.r83bkqk0": {
-    "Id": "r83bkqk0",
-    "Version": "2.17.0",
+  "PersistentCharacters.r83bkqk0": {
     "Name": "The Fingers",
-    "Path": "",
-    "LastUpdateMs": 1637448856799,
+    "Path": "Archive",
+    "Id": "r83bkqk0",
+    "LastUpdateMs": 1638148274056,
+    "SearchHint": "Medium humanoid (any race), any non-good alignment",
+    "FilterDimensions": {
+      "Level": "3"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "2.17.0",
     "CurrentHP": 14,
     "StatBlock": {
       "Id": "r83bkqk0",
@@ -996,87 +1682,17 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.PersistentCharacters.ru3mpxp5": {
-    "Id": "ru3mpxp5",
-    "Version": "2.17.0",
-    "Name": "Shem",
-    "Path": "Sample Player Characters",
-    "LastUpdateMs": 1637448856799,
-    "CurrentHP": 11,
-    "StatBlock": {
-      "Id": "ru3mpxp5",
-      "Name": "Shem",
-      "Path": "",
-      "Source": "",
-      "Type": "Hill Dwarf Cleric",
-      "HP": {
-        "Value": 11,
-        "Notes": ""
-      },
-      "AC": {
-        "Value": 18,
-        "Notes": "(chain mail, shield)"
-      },
-      "InitiativeModifier": 0,
-      "InitiativeAdvantage": false,
-      "Speed": [
-        "25 ft."
-      ],
-      "Abilities": {
-        "Str": 14,
-        "Dex": 8,
-        "Con": 15,
-        "Cha": 12,
-        "Int": 10,
-        "Wis": 16
-      },
-      "DamageVulnerabilities": [],
-      "DamageResistances": [],
-      "DamageImmunities": [],
-      "ConditionImmunities": [],
-      "Saves": [
-        {
-          "Name": "Wis",
-          "Modifier": 5
-        },
-        {
-          "Name": "Cha",
-          "Modifier": 3
-        }
-      ],
-      "Skills": [
-        {
-          "Name": "Perception",
-          "Modifier": 3
-        },
-        {
-          "Name": "Insight",
-          "Modifier": 3
-        }
-      ],
-      "Senses": [],
-      "Languages": [
-        "Common",
-        "Dwarvish"
-      ],
-      "Challenge": "1",
-      "Traits": [],
-      "Actions": [],
-      "Reactions": [],
-      "LegendaryActions": [],
-      "Description": "",
-      "Player": "player",
-      "Version": "2.17.0",
-      "ImageURL": ""
-    },
-    "Notes": ""
-  },
-  "PersistentCharacters.PersistentCharacters.vze5m3h3": {
-    "Id": "vze5m3h3",
-    "Version": "2.17.0",
+  "PersistentCharacters.vze5m3h3": {
     "Name": "Melina Rossou (Gladdhead)",
-    "Path": "",
-    "LastUpdateMs": 1637448856799,
+    "Path": "Archive",
+    "Id": "vze5m3h3",
+    "LastUpdateMs": 1638148274044,
+    "SearchHint": "Medium humanoid (any race), any alignment",
+    "FilterDimensions": {
+      "Level": "0"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "2.17.0",
     "CurrentHP": 9,
     "StatBlock": {
       "Id": "vze5m3h3",
@@ -1155,12 +1771,17 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.PersistentCharacters.xkxpz3hz": {
-    "Id": "xkxpz3hz",
-    "Version": "2.17.0",
+  "PersistentCharacters.xkxpz3hz": {
     "Name": "Strixis Black (Gladdhead - Cult Leader)",
-    "Path": "",
-    "LastUpdateMs": 1637448856799,
+    "Path": "Archive",
+    "Id": "xkxpz3hz",
+    "LastUpdateMs": 1638148274053,
+    "SearchHint": "Medium humanoid (any race), any non-good alignment",
+    "FilterDimensions": {
+      "Level": "2"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "2.17.0",
     "CurrentHP": 22,
     "StatBlock": {
       "Id": "xkxpz3hz",
@@ -1286,12 +1907,17 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.PersistentCharacters.zmhhcqpi": {
-    "Id": "zmhhcqpi",
-    "Version": "3.2.5",
+  "PersistentCharacters.zmhhcqpi": {
     "Name": "Bartholomew Greyheart (Greedsfall - Jouster)",
-    "Path": "",
-    "LastUpdateMs": 1637448856799,
+    "Path": "Archive",
+    "Id": "zmhhcqpi",
+    "LastUpdateMs": 1638148274036,
+    "SearchHint": "humanoid (Human)",
+    "FilterDimensions": {
+      "Level": "2"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.5",
     "CurrentHP": 75,
     "StatBlock": {
       "Id": "zmhhcqpi",
@@ -1375,302 +2001,22 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.gmjt3sa9": {
-    "Id": "gmjt3sa9",
-    "Version": "3.2.5",
-    "Name": "Lane Twoswift (Greedsfall - Thief)",
-    "Path": "",
-    "LastUpdateMs": 1637448857324,
-    "CurrentHP": 34,
-    "StatBlock": {
-      "Id": "gmjt3sa9",
-      "Name": "Lane Twoswift (Greedsfall - Thief)",
-      "Path": "",
-      "Source": "Basic Rules",
-      "Type": "Medium humanoid (any race), any alignment",
-      "HP": {
-        "Value": 34,
-        "Notes": "(6d8+3)"
-      },
-      "AC": {
-        "Value": 13,
-        "Notes": "(leather armor)"
-      },
-      "InitiativeModifier": 6,
-      "InitiativeAdvantage": false,
-      "Speed": [
-        "30 ft."
-      ],
-      "Abilities": {
-        "Str": 11,
-        "Dex": 14,
-        "Con": 12,
-        "Int": 11,
-        "Wis": 13,
-        "Cha": 11
-      },
-      "DamageVulnerabilities": [],
-      "DamageResistances": [],
-      "DamageImmunities": [],
-      "ConditionImmunities": [],
-      "Saves": [
-        {
-          "Name": "Dexterity",
-          "Modifier": 4
-        }
-      ],
-      "Skills": [
-        {
-          "Name": "Investigation",
-          "Modifier": 4
-        },
-        {
-          "Name": "Perception",
-          "Modifier": 5
-        },
-        {
-          "Name": "Stealth",
-          "Modifier": 6
-        },
-        {
-          "Name": "Sleight of Hand",
-          "Modifier": 7
-        },
-        {
-          "Name": "Acrobatics",
-          "Modifier": 4
-        }
-      ],
-      "Senses": [],
-      "Languages": [
-        "any one language (usually Common)"
-      ],
-      "Challenge": "1/2",
-      "Traits": [
-        {
-          "Name": "Keen Hearing and Sight",
-          "Content": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
-          "Usage": ""
-        }
-      ],
-      "Actions": [
-        {
-          "Name": "Multiattack",
-          "Content": "The scout makes two melee attacks or two ranged attacks.",
-          "Usage": ""
-        },
-        {
-          "Name": "Dagger",
-          "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-          "Usage": ""
-        },
-        {
-          "Name": "Crossbow, Hand",
-          "Content": "Ranged Weapon Attack: +4 to hit, ranged 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-          "Usage": ""
-        },
-        {
-          "Name": "Rapier",
-          "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-          "Usage": ""
-        },
-        {
-          "Name": "Lance",
-          "Content": "Melee Weapon Attack: +4 to hit, reach 10ft., one target. Hit: 8 (1d12 + 2) piercing damage\n\nSpecial: You have disadvantage when you use a lance to Attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.",
-          "Usage": ""
-        }
-      ],
-      "BonusActions": [],
-      "Reactions": [],
-      "LegendaryActions": [
-        {
-          "Name": "Helpful",
-          "Content": "The sidekick is adept at giving well-timed assistance; the sidekick can take the Help action as a bonus action.",
-          "Usage": ""
-        },
-        {
-          "Name": "Cunning Action",
-          "Content": "The sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the Dash, Disengage, or Hide Action as a Bonus Action",
-          "Usage": ""
-        }
-      ],
-      "MythicActions": [],
-      "Description": "",
-      "Player": "",
-      "Version": "3.2.5",
-      "ImageURL": ""
-    },
-    "Notes": ""
-  },
-  "PersistentCharacters.k9hzz7a0": {
-    "Id": "k9hzz7a0",
-    "Version": "2.17.0",
-    "Name": "Tiaq",
-    "Path": "",
-    "LastUpdateMs": 1637448857321,
-    "CurrentHP": 39,
-    "StatBlock": {
-      "Id": "k9hzz7a0",
-      "Name": "Tiaq",
-      "Path": "",
-      "Source": "",
-      "Type": "",
-      "HP": {
-        "Value": 39,
-        "Notes": ""
-      },
-      "AC": {
-        "Value": 18,
-        "Notes": ""
-      },
-      "InitiativeModifier": 0,
-      "InitiativeAdvantage": false,
-      "Speed": [
-        "30"
-      ],
-      "Abilities": {
-        "Str": 19,
-        "Dex": 14,
-        "Con": 19,
-        "Int": 11,
-        "Wis": 12,
-        "Cha": 14
-      },
-      "DamageVulnerabilities": [],
-      "DamageResistances": [],
-      "DamageImmunities": [],
-      "ConditionImmunities": [],
-      "Saves": [],
-      "Skills": [],
-      "Senses": [
-        "Passive Perception (WIS) 13",
-        "Passive Investigation (INT) 10",
-        "Passive Insight (WIS) 13"
-      ],
-      "Languages": [
-        "Common",
-        "Draconic"
-      ],
-      "Challenge": "3",
-      "Traits": [],
-      "Actions": [],
-      "Reactions": [],
-      "LegendaryActions": [],
-      "Description": "",
-      "Player": "player",
-      "Version": "2.17.0",
-      "ImageURL": ""
-    },
-    "Notes": ""
-  },
-  "PersistentCharacters.zmhhcqpi": {
-    "Id": "zmhhcqpi",
-    "Version": "3.2.5",
-    "Name": "Bartholomew Greyheart (Greedsfall - Jouster)",
-    "Path": "",
-    "LastUpdateMs": 1637449456818,
-    "CurrentHP": 75,
-    "StatBlock": {
-      "Id": "zmhhcqpi",
-      "Name": "Bartholomew Greyheart (Greedsfall - Jouster)",
-      "Path": "",
-      "Source": "",
-      "Type": "humanoid (Human)",
-      "HP": {
-        "Value": 75,
-        "Notes": "(10d8+30)"
-      },
-      "AC": {
-        "Value": 18,
-        "Notes": "(Plate Armor)"
-      },
-      "InitiativeModifier": 0,
-      "InitiativeAdvantage": false,
-      "Speed": [
-        "walk 30 ft."
-      ],
-      "Abilities": {
-        "Str": 19,
-        "Dex": 12,
-        "Con": 17,
-        "Int": 10,
-        "Wis": 14,
-        "Cha": 8
-      },
-      "DamageVulnerabilities": [],
-      "DamageResistances": [],
-      "DamageImmunities": [],
-      "ConditionImmunities": [],
-      "Saves": [],
-      "Skills": [
-        {
-          "Name": "Athletics",
-          "Modifier": 4
-        },
-        {
-          "Name": "Animal Handling",
-          "Modifier": 5
-        }
-      ],
-      "Senses": [
-        "passive Perception 12"
-      ],
-      "Languages": [
-        "Common"
-      ],
-      "Challenge": "2",
-      "Traits": [
-        {
-          "Name": "Cavalry Charge",
-          "Content": "If Bartholomew moves at least 20 feet straight toward a creature while mounted and then hits with a lance attack on the same turn, it can make a trample attack against that creature as a bonus action."
-        }
-      ],
-      "Actions": [
-        {
-          "Name": "Dagger",
-          "Content": "Melee Weapon Attack: +4 to hit, reach 5ft., one target: Hit: 4 (1d4 + 2)",
-          "Usage": ""
-        },
-        {
-          "Name": "Lance",
-          "Content": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 8 (1d12 + 2) piercing damage."
-        },
-        {
-          "Name": "Heavy Crossbow",
-          "Content": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage."
-        },
-        {
-          "Name": "Trample (Mounted Only)",
-          "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage and the target must succeed on a DC 13 Strength saving throw or be knocked prone."
-        }
-      ],
-      "BonusActions": [],
-      "Reactions": [],
-      "LegendaryActions": [],
-      "MythicActions": [],
-      "Description": "",
-      "Player": "",
-      "Version": "3.2.5",
-      "ImageURL": ""
-    },
-    "Notes": ""
-  },
   "PersistentCharacters.zp2v3886": {
     "Id": "zp2v3886",
-    "Version": "3.1.0",
-    "Name": "Sora (Riverbend - Wolf)",
+    "Version": "3.2.6",
+    "Name": "Sora",
     "Path": "",
-    "LastUpdateMs": 1637448857322,
-    "CurrentHP": 16,
+    "LastUpdateMs": 1638544762039,
+    "CurrentHP": 15,
     "StatBlock": {
       "Id": "zp2v3886",
-      "Name": "Sora (Riverbend - Wolf)",
+      "Name": "Sora",
       "Path": "",
       "Source": "",
       "Type": "Medium beast, unaligned",
       "HP": {
-        "Value": 16,
-        "Notes": "(3d8+2)"
+        "Value": 20,
+        "Notes": ""
       },
       "AC": {
         "Value": 13,
@@ -1693,7 +2039,12 @@
       "DamageResistances": [],
       "DamageImmunities": [],
       "ConditionImmunities": [],
-      "Saves": [],
+      "Saves": [
+        {
+          "Name": "Constitution",
+          "Modifier": 2
+        }
+      ],
       "Skills": [
         {
           "Name": "Perception",
@@ -1702,6 +2053,14 @@
         {
           "Name": "Stealth",
           "Modifier": 4
+        },
+        {
+          "Name": "Intimidation (Str Variant)",
+          "Modifier": 3
+        },
+        {
+          "Name": "Survival",
+          "Modifier": 3
         }
       ],
       "Senses": [
@@ -1712,12 +2071,17 @@
       "Traits": [
         {
           "Name": "Keen Hearing and Sight",
-          "Content": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell",
+          "Content": "Sora has advantage on Wisdom (Perception) checks that rely on hearing or smell",
           "Usage": ""
         },
         {
           "Name": "Pack Tactics",
-          "Content": "The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+          "Content": "Sora has advantage on attack rolls against a creature if at least one of the her allies is within 5 feet of the creature and the ally isn't incapacitated.",
+          "Usage": ""
+        },
+        {
+          "Name": "Bonus Proficiencies",
+          "Content": "Sora is proficient with all Armor",
           "Usage": ""
         }
       ],
@@ -1728,24 +2092,26 @@
           "Usage": ""
         }
       ],
+      "BonusActions": [
+        {
+          "Name": "Second Wind (Warrior Sidekick Lvl 2)",
+          "Content": "As a bonus action, regain hit points equal to 1d10 + Sora's Level in this class. Once this feature is used, Sora must complete a short or long rest before it can be used again.",
+          "Usage": ""
+        }
+      ],
       "Reactions": [
         {
           "Name": "Defender (Warrior Sidekick Lvl 1)",
-          "Content": "As a reaction, impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the wolf, provided the sidekick can see the attacker.",
+          "Content": "Sora can use her reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't Sora, provided Sora can see the attacker",
           "Usage": ""
         }
       ],
-      "LegendaryActions": [
-        {
-          "Name": "Second Wind (Warrior Sidekick Lvl 2)",
-          "Content": "As a bonus action, regain hit points equal to 1d10 + its level. Once this feature is used, a short or long rest is required to regain this feature",
-          "Usage": ""
-        }
-      ],
+      "LegendaryActions": [],
+      "MythicActions": [],
       "Description": "",
       "Player": "player",
-      "Version": "3.1.0",
-      "ImageURL": "https://www.dndbeyond.com/avatars/thumbnails/16/482/1000/1000/636376300223855327.jpeg"
+      "Version": "3.2.6",
+      "ImageURL": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5b570b28-d69c-446e-b924-3e789855484d%2FSora.jpg?table=block&id=afd18293-e3b3-4af1-8e3e-096666d58f60&spaceId=cdf14a20-1e9c-4bf5-8b47-217c26991671&width=2000&userId=fcce57b3-b69e-46cd-8b20-5f86f950eb92&cache=v2"
     },
     "Notes": ""
   }
