@@ -5,12 +5,562 @@
   "ImprovedInitiative.Creatures": "[]",
   "ImprovedInitiative.User": "[\"Settings\",\"SkipIntro\",\"AllowTracking\"]",
   "ImprovedInitiative.PlayerCharacters": "[]",
-  "ImprovedInitiative.User.Settings": "{\"Commands\":[{\"Name\":\"toggle-menu\",\"KeyBinding\":\"alt+m\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"start-encounter\",\"KeyBinding\":\"alt+r\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"reroll-initiative\",\"KeyBinding\":\"alt+shift+i\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"end-encounter\",\"KeyBinding\":\"shift+alt+r\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"clear-encounter\",\"KeyBinding\":\"alt+shift+del\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"clean-encounter\",\"KeyBinding\":\"alt+del\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"open-library\",\"KeyBinding\":\"alt+a\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"roll-dice\",\"KeyBinding\":\"d\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"quick-add\",\"KeyBinding\":\"alt+q\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"restore-all-player-character-hp\",\"KeyBinding\":\"alt+shift+t\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"player-window\",\"KeyBinding\":\"alt+w\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"toggle-full-screen\",\"KeyBinding\":\"f11\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"next-turn\",\"KeyBinding\":\"n\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"previous-turn\",\"KeyBinding\":\"alt+n\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"save-encounter\",\"KeyBinding\":\"alt+s\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"settings\",\"KeyBinding\":\"?\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"apply-damage\",\"KeyBinding\":\"t\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"apply-healing\",\"KeyBinding\":\"l\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"apply-temporary-hp\",\"KeyBinding\":\"alt+t\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"add-tag\",\"KeyBinding\":\"g\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":true},{\"Name\":\"update-notes\",\"KeyBinding\":\"y\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"remove\",\"KeyBinding\":\"del\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"set-alias\",\"KeyBinding\":\"f2\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"toggle-hidden\",\"KeyBinding\":\"h\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":true},{\"Name\":\"toggle-reveal-ac\",\"KeyBinding\":\"alt+h\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"edit-statblock\",\"KeyBinding\":\"e\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"quick-edit-statblock\",\"KeyBinding\":\"\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"set-initiative\",\"KeyBinding\":\"alt+i\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"link-initiative\",\"KeyBinding\":\"alt+l\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"move-down\",\"KeyBinding\":\"alt+j\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"move-up\",\"KeyBinding\":\"alt+k\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"select-next\",\"KeyBinding\":\"j\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"select-previous\",\"KeyBinding\":\"k\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"open-library-manager\",\"KeyBinding\":\"alt+shift+a\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false}],\"Rules\":{\"RollMonsterHp\":false,\"EnableBossAndMinionHP\":false,\"AllowNegativeHP\":false,\"AutoCheckConcentration\":true,\"AutoGroupInitiative\":\"None\",\"AutoRerollInitiative\":\"No\"},\"TrackerView\":{\"DisplayPortraits\":false,\"DisplayRoundCounter\":false,\"DisplayTurnTimer\":false,\"DisplayDifficulty\":true,\"DisplayHPBar\":false,\"PostCombatStats\":\"None\"},\"PlayerView\":{\"ActiveCombatantOnTop\":false,\"AllowPlayerSuggestions\":false,\"AllowTagSuggestions\":false,\"MonsterHPVerbosity\":\"Colored Label\",\"PlayerHPVerbosity\":\"Actual HP\",\"HideMonstersOutsideEncounter\":false,\"DisplayRoundCounter\":false,\"DisplayTurnTimer\":false,\"DisplayPortraits\":false,\"SplashPortraits\":false,\"CustomCSS\":\"\",\"CustomStyles\":{\"combatantBackground\":\"\",\"combatantText\":\"\",\"activeCombatantIndicator\":\"\",\"font\":\"\",\"headerBackground\":\"\",\"headerText\":\"\",\"mainBackground\":\"\",\"backgroundUrl\":\"\"},\"CustomEncounterId\":\"\"},\"PreloadedContent\":{\"BasicRules\":true,\"Open5eContent\":true},\"Version\":\"2.17.0\"}",
+  "ImprovedInitiative.User.Settings": "{\"Commands\":[{\"Name\":\"toggle-menu\",\"KeyBinding\":\"alt+m\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"start-encounter\",\"KeyBinding\":\"alt+r\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"reroll-initiative\",\"KeyBinding\":\"alt+shift+i\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"end-encounter\",\"KeyBinding\":\"shift+alt+r\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"clear-encounter\",\"KeyBinding\":\"alt+shift+del\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"clean-encounter\",\"KeyBinding\":\"alt+del\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"open-library\",\"KeyBinding\":\"alt+a\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"roll-dice\",\"KeyBinding\":\"d\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"quick-add\",\"KeyBinding\":\"alt+q\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"restore-all-player-character-hp\",\"KeyBinding\":\"alt+shift+t\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"player-window\",\"KeyBinding\":\"alt+w\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"toggle-full-screen\",\"KeyBinding\":\"f11\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"next-turn\",\"KeyBinding\":\"n\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"previous-turn\",\"KeyBinding\":\"alt+n\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"save-encounter\",\"KeyBinding\":\"alt+s\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"settings\",\"KeyBinding\":\"?\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"apply-damage\",\"KeyBinding\":\"t\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"apply-healing\",\"KeyBinding\":\"l\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"apply-temporary-hp\",\"KeyBinding\":\"alt+t\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"add-tag\",\"KeyBinding\":\"g\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":true},{\"Name\":\"update-notes\",\"KeyBinding\":\"y\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"remove\",\"KeyBinding\":\"del\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"set-alias\",\"KeyBinding\":\"f2\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"toggle-hidden\",\"KeyBinding\":\"h\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":true},{\"Name\":\"toggle-reveal-ac\",\"KeyBinding\":\"alt+h\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"edit-statblock\",\"KeyBinding\":\"e\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"quick-edit-statblock\",\"KeyBinding\":\"\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"set-initiative\",\"KeyBinding\":\"alt+i\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"link-initiative\",\"KeyBinding\":\"alt+l\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"move-down\",\"KeyBinding\":\"alt+j\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"move-up\",\"KeyBinding\":\"alt+k\",\"ShowOnActionBar\":true,\"ShowInCombatantRow\":false},{\"Name\":\"select-next\",\"KeyBinding\":\"j\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"select-previous\",\"KeyBinding\":\"k\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false},{\"Name\":\"open-library-manager\",\"KeyBinding\":\"alt+shift+a\",\"ShowOnActionBar\":false,\"ShowInCombatantRow\":false}],\"Rules\":{\"RollMonsterHp\":false,\"EnableBossAndMinionHP\":false,\"AllowNegativeHP\":false,\"AutoCheckConcentration\":true,\"AutoGroupInitiative\":\"None\",\"AutoRerollInitiative\":\"No\"},\"TrackerView\":{\"DisplayPortraits\":false,\"DisplayRoundCounter\":false,\"DisplayTurnTimer\":false,\"DisplayDifficulty\":true,\"DisplayHPBar\":false,\"PostCombatStats\":\"None\"},\"PlayerView\":{\"ActiveCombatantOnTop\":false,\"AllowPlayerSuggestions\":false,\"AllowTagSuggestions\":false,\"MonsterHPVerbosity\":\"Colored Label\",\"PlayerHPVerbosity\":\"Actual HP\",\"HideMonstersOutsideEncounter\":true,\"DisplayRoundCounter\":false,\"DisplayTurnTimer\":false,\"DisplayPortraits\":false,\"SplashPortraits\":false,\"CustomCSS\":\"\",\"CustomStyles\":{\"combatantBackground\":\"\",\"combatantText\":\"\",\"activeCombatantIndicator\":\"\",\"font\":\"\",\"headerBackground\":\"\",\"headerText\":\"\",\"mainBackground\":\"\",\"backgroundUrl\":\"\"},\"CustomEncounterId\":\"\"},\"PreloadedContent\":{\"BasicRules\":true,\"Open5eContent\":true},\"Version\":\"2.17.0\"}",
   "ImprovedInitiative.User.AllowTracking": "true",
-  "ImprovedInitiative.AutoSavedEncounters.default": "{\"ActiveCombatantId\":null,\"RoundCounter\":1,\"Combatants\":[],\"BackgroundImageUrl\":null,\"ElapsedSeconds\":0}",
+  "ImprovedInitiative.AutoSavedEncounters.default": "{\"ActiveCombatantId\":null,\"RoundCounter\":0,\"Combatants\":[],\"BackgroundImageUrl\":null,\"ElapsedSeconds\":0}",
   "ImprovedInitiative.User.SkipIntro": "true",
   "ImprovedInitiative.PersistentCharacters": "[]",
   "ImprovedInitiative.AutoSavedEncounters": "[\"default\"]",
+  "Creatures.00mxqbni": {
+    "Id": "00mxqbni",
+    "Name": "Reghed Warrior",
+    "Path": "",
+    "Source": "Systems Reference Document",
+    "Type": "humanoid (any race)",
+    "HP": {
+      "Value": 11,
+      "Notes": "(2d8)"
+    },
+    "AC": {
+      "Value": 12,
+      "Notes": "(hide armor)"
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "walk 30 ft."
+    ],
+    "Abilities": {
+      "Str": 13,
+      "Dex": 11,
+      "Con": 12,
+      "Int": 8,
+      "Wis": 11,
+      "Cha": 8
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [
+      {
+        "Name": "Survival",
+        "Modifier": 4
+      }
+    ],
+    "Senses": [
+      "passive Perception 10"
+    ],
+    "Languages": [
+      "any one language"
+    ],
+    "Challenge": "1/8",
+    "Traits": [
+      {
+        "Name": "Pack Tactics",
+        "Content": "The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Spear",
+        "Content": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "",
+    "LastUpdateMs": 1645068437722
+  },
+  "Creatures.0qxpbz2d": {
+    "Id": "0qxpbz2d",
+    "Name": "Water Weird",
+    "Path": "",
+    "Source": "Monster Manual",
+    "Type": "Large elemental, neutral",
+    "HP": {
+      "Value": 58,
+      "Notes": "(9d10 + 9)"
+    },
+    "AC": {
+      "Value": 13,
+      "Notes": ""
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "0ft., swim 60 ft."
+    ],
+    "Abilities": {
+      "Str": 17,
+      "Dex": 16,
+      "Con": 13,
+      "Int": 11,
+      "Wis": 10,
+      "Cha": 10
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [
+      "Fire",
+      "Bludgeoning",
+      "Piercing",
+      "Slashing from Nonmagical Attacks"
+    ],
+    "DamageImmunities": [
+      "Poison"
+    ],
+    "ConditionImmunities": [
+      "Exhaustion",
+      "Grappled",
+      "Paralyzed",
+      "Poisoned",
+      "Prone",
+      "Restrained",
+      "Unconscious"
+    ],
+    "Saves": [],
+    "Skills": [],
+    "Senses": [
+      "Blindsight 30 ft.",
+      "Passive Perception 10"
+    ],
+    "Languages": [
+      "Understands Aquan but doesn't speak"
+    ],
+    "Challenge": "3",
+    "Traits": [
+      {
+        "Name": "Invisible in Water",
+        "Content": "The water weird is invisible when fully immersed in water",
+        "Usage": ""
+      },
+      {
+        "Name": "Water Bound",
+        "Content": "The water weird dies if it leaves the water to which it is bound or if that water is destroyed",
+        "Usage": ""
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Constrict",
+        "Content": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 feet toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can’t constrict another target.",
+        "Usage": ""
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f7/Waterweird.jpeg/revision/latest/scale-to-width-down/813?cb=20190630192138",
+    "LastUpdateMs": 1640225407972
+  },
+  "Creatures.3gstggi9": {
+    "Id": "3gstggi9",
+    "Name": "Hare",
+    "Path": "",
+    "Source": "Icewind Dale: Rime of the Frostmaiden",
+    "Type": "Tiny beast, unaligned",
+    "HP": {
+      "Value": 1,
+      "Notes": "(1d4-1)"
+    },
+    "AC": {
+      "Value": 13,
+      "Notes": ""
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "20 ft.",
+      "burrow 5ft."
+    ],
+    "Abilities": {
+      "Str": 1,
+      "Dex": 17,
+      "Con": 9,
+      "Int": 2,
+      "Wis": 11,
+      "Cha": 4
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [
+      {
+        "Name": "Perception",
+        "Modifier": 2
+      },
+      {
+        "Name": "Stealth",
+        "Modifier": 5
+      }
+    ],
+    "Senses": [
+      "Passive Perception (WIS) 12"
+    ],
+    "Languages": [],
+    "Challenge": "0",
+    "Traits": [
+      {
+        "Name": "Escape",
+        "Content": "The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns.",
+        "Usage": ""
+      }
+    ],
+    "Actions": [],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/a/a4/Hare_5e.jpg/revision/latest/scale-to-width-down/350?cb=20201206222348",
+    "LastUpdateMs": 1643761529135
+  },
+  "Creatures.3my4b4v6": {
+    "Id": "3my4b4v6",
+    "Name": "Verbeeg Marauder",
+    "Path": "",
+    "Source": "Icewind Dale: Rime of the Frostmaiden",
+    "Type": "Large giant",
+    "HP": {
+      "Value": 85,
+      "Notes": "(10d10+30)"
+    },
+    "AC": {
+      "Value": 14,
+      "Notes": "Hide Armor, Shield"
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "40 ft"
+    ],
+    "Abilities": {
+      "Str": 19,
+      "Dex": 11,
+      "Con": 16,
+      "Int": 11,
+      "Wis": 10,
+      "Cha": 9
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [
+      {
+        "Name": "Dex",
+        "Modifier": 2
+      },
+      {
+        "Name": "Con",
+        "Modifier": 5
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Animal Handling",
+        "Modifier": 2
+      },
+      {
+        "Name": "Athletics",
+        "Modifier": 6
+      },
+      {
+        "Name": "Stealth",
+        "Modifier": 2
+      }
+    ],
+    "Senses": [
+      "Passive Perception (WIS) 10"
+    ],
+    "Languages": [
+      "Common",
+      "Giant"
+    ],
+    "Challenge": "4",
+    "Traits": [
+      {
+        "Name": "Simple Weapon Wielder",
+        "Content": "A simple weapon deals one extra die of its damage when the verbeeg hits with it (included in the attack).",
+        "Usage": ""
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Multiattack",
+        "Content": "The verbeeg makes two attacks",
+        "Usage": ""
+      },
+      {
+        "Name": "Spear",
+        "Content": "_Melee or Ranged Weapon_: +6 to hit, reach 5ft. or range 20/60 ft., one target. _Hit:_ 14 (3d6 + 4) piercing damage, or 17 (3d8 + 4) piercing damage if used to make a ranged attack or used with two hands to make a melee attack.",
+        "Usage": ""
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "https://i.pinimg.com/originals/a8/e7/da/a8e7da321690be8cd15571b0cf7f657c.jpg",
+    "LastUpdateMs": 1642219661446
+  },
+  "Creatures.47gycigv": {
+    "Id": "47gycigv",
+    "Name": "Yeti Tyke",
+    "Path": "",
+    "Source": "Icewind Dale: Rime of the Frostmaiden",
+    "Type": "Small monstrosity, chaotic evil",
+    "HP": {
+      "Value": 9,
+      "Notes": "(2d6+2)"
+    },
+    "AC": {
+      "Value": 12,
+      "Notes": "(Natural Armor)"
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "20 ft.",
+      "climb 20 ft."
+    ],
+    "Abilities": {
+      "Str": 10,
+      "Dex": 11,
+      "Con": 12,
+      "Int": 6,
+      "Wis": 8,
+      "Cha": 5
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [
+      "Cold"
+    ],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [],
+    "Senses": [
+      "Darkvision 60ft.",
+      "Passive Perception 9"
+    ],
+    "Languages": [
+      "Understands Yeti but can't speak"
+    ],
+    "Challenge": "1/8",
+    "Traits": [
+      {
+        "Name": "Keen Smell",
+        "Content": "The yeti has advantage on Wisdom (Perception) checks that rely on smell.",
+        "Usage": ""
+      },
+      {
+        "Name": "Snow Camoflauge",
+        "Content": "The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+        "Usage": ""
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Claw",
+        "Content": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage plus 2 (1d4) cold damage.",
+        "Usage": ""
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "",
+    "LastUpdateMs": 1645575680503
+  },
+  "Creatures.7i460nch": {
+    "Id": "7i460nch",
+    "Name": "Goblin Boss",
+    "Path": "",
+    "Source": "Systems Reference Document",
+    "Type": "humanoid (goblinoid)",
+    "HP": {
+      "Value": 21,
+      "Notes": "(6d6)"
+    },
+    "AC": {
+      "Value": 17,
+      "Notes": "(Chain Shirt, shield)"
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "walk 30 ft."
+    ],
+    "Abilities": {
+      "Str": 10,
+      "Dex": 14,
+      "Con": 10,
+      "Int": 10,
+      "Wis": 8,
+      "Cha": 10
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [
+      {
+        "Name": "Stealth",
+        "Modifier": 6
+      }
+    ],
+    "Senses": [
+      "darkvision 60 ft.",
+      "passive Perception 9"
+    ],
+    "Languages": [
+      "Common",
+      "Goblin"
+    ],
+    "Challenge": "1",
+    "Traits": [
+      {
+        "Name": "Nimble Escape",
+        "Content": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Multiattack",
+        "Content": "The goblin makes two attacks with its scimitar. The second attack has disadvantage.",
+        "Usage": ""
+      },
+      {
+        "Name": "Scimitar",
+        "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+      },
+      {
+        "Name": "Shortbow",
+        "Content": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [
+      {
+        "Name": "Redirect Attack",
+        "Content": "When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.",
+        "Usage": ""
+      }
+    ],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "",
+    "LastUpdateMs": 1644555198452
+  },
+  "Creatures.96p8bs4q": {
+    "Id": "96p8bs4q",
+    "Name": "Frost Giant Skeleton",
+    "Path": "",
+    "Source": "Icewind Dale: Rime of the Frostmaiden",
+    "Type": "Huge undead, lawful evil",
+    "HP": {
+      "Value": 102,
+      "Notes": "(12d12 + 24)"
+    },
+    "AC": {
+      "Value": 14,
+      "Notes": "(Armor Scraps)"
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "40 ft"
+    ],
+    "Abilities": {
+      "Str": 23,
+      "Dex": 9,
+      "Con": 15,
+      "Int": 6,
+      "Wis": 8,
+      "Cha": 5
+    },
+    "DamageVulnerabilities": [
+      "Bludgeoning"
+    ],
+    "DamageResistances": [],
+    "DamageImmunities": [
+      "Cold",
+      "Poison"
+    ],
+    "ConditionImmunities": [
+      "Exhaustion",
+      "Poisoned"
+    ],
+    "Saves": [],
+    "Skills": [],
+    "Senses": [
+      "Darkvision 60 ft.",
+      "Passive Perception 9"
+    ],
+    "Languages": [
+      "understands Giant but can't speak"
+    ],
+    "Challenge": "6",
+    "Traits": [
+      {
+        "Name": "Unusual Nature",
+        "Content": "The skeleton doesn’t require air, food, drink, or sleep.",
+        "Usage": ""
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Multiattack",
+        "Content": "The skeleton makes two greataxe attacks.",
+        "Usage": ""
+      },
+      {
+        "Name": "Greataxe",
+        "Content": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage.",
+        "Usage": ""
+      },
+      {
+        "Name": "Freezing Stare",
+        "Content": "The skeleton targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn.",
+        "Usage": ""
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "https://5e.tools/img/bestiary/IDRotF/Frost%20Giant%20Skeleton.jpg",
+    "LastUpdateMs": 1640221817311
+  },
   "Creatures.Creatures.Creatures.2fp8gprz": {
     "Id": "2fp8gprz",
     "Name": "Zombie - Bloater",
@@ -245,39 +795,585 @@
     "ImageURL": "",
     "LastUpdateMs": 1637448856798
   },
+  "Creatures.b1a0t05i": {
+    "Id": "b1a0t05i",
+    "Name": "Goblin Shaman",
+    "Path": "",
+    "Source": "Systems Reference Document",
+    "Type": "small humanoid (goblinoid), neutral evil",
+    "HP": {
+      "Value": 22,
+      "Notes": "(4d6 + 8)"
+    },
+    "AC": {
+      "Value": 14,
+      "Notes": "Studded Leather"
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "walk 30 ft."
+    ],
+    "Abilities": {
+      "Str": 12,
+      "Dex": 14,
+      "Con": 14,
+      "Int": 11,
+      "Wis": 16,
+      "Cha": 12
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [
+      {
+        "Name": "Deception",
+        "Modifier": 4
+      },
+      {
+        "Name": "Persuasion",
+        "Modifier": 4
+      }
+    ],
+    "Senses": [
+      "Darkvision 60 ft",
+      "passive Perception 13"
+    ],
+    "Languages": [
+      "Common",
+      "Goblin"
+    ],
+    "Challenge": "3",
+    "Traits": [
+      {
+        "Name": "Innate Spellcasting",
+        "Content": "The goblin shaman’s innate spellcasting ability is Wisdom (spell save DC 13, +8 to hit with spell attacks). The goblin shaman can innately cast the following spells, requiring no components.\n\nAt will: fire bolt, message\n1st Level (2/day): burning hands, charm person, detect thoughts, sleep\n2nd Level (1/day): fireball, lightning bolt"
+      },
+      {
+        "Name": "Magic Resistance",
+        "Content": "The goblin shaman has advantage on saving throws against spells and other magical effects.",
+        "Usage": ""
+      },
+      {
+        "Name": "Nimble Escape",
+        "Content": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns.",
+        "Usage": ""
+      },
+      {
+        "Name": "Wild Magic",
+        "Content": "The goblin must roll a 1d100 on the Wild Magic Surge table anytime a spell, including cantrips, is cast.",
+        "Usage": ""
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Multiattack",
+        "Content": "The goblin shaman makes two attacks with its goat staff",
+        "Usage": ""
+      },
+      {
+        "Name": "Goat Staff",
+        "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) bludgeoning damage plus 10 (3d6) necrotic damage."
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "",
+    "LastUpdateMs": 1646588742276
+  },
+  "Creatures.d782yau9": {
+    "Id": "d782yau9",
+    "Name": "Sheep",
+    "Path": "",
+    "Source": "Systems Reference Document",
+    "Type": "beast ",
+    "HP": {
+      "Value": 3,
+      "Notes": "(1d6)"
+    },
+    "AC": {
+      "Value": 10,
+      "Notes": ""
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "walk 30 ft."
+    ],
+    "Abilities": {
+      "Str": 12,
+      "Dex": 10,
+      "Con": 11,
+      "Int": 2,
+      "Wis": 10,
+      "Cha": 5
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [],
+    "Senses": [
+      "passive Perception 10"
+    ],
+    "Languages": [],
+    "Challenge": "0",
+    "Traits": [
+      {
+        "Name": "Sure-Footed",
+        "Content": "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Ram",
+        "Content": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage."
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "",
+    "LastUpdateMs": 1642216713823
+  },
+  "Creatures.fpx5qixm": {
+    "Id": "fpx5qixm",
+    "Name": "Yeti",
+    "Path": "",
+    "Source": "Icewind Dale: Rime of the Frostmaiden",
+    "Type": "Large monstrosity, chaotic evil",
+    "HP": {
+      "Value": 51,
+      "Notes": "(6d10+18)"
+    },
+    "AC": {
+      "Value": 12,
+      "Notes": "(Natural Armor)"
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "40 ft.",
+      "climb 40 ft."
+    ],
+    "Abilities": {
+      "Str": 18,
+      "Dex": 13,
+      "Con": 16,
+      "Int": 8,
+      "Wis": 12,
+      "Cha": 7
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [
+      "Cold"
+    ],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [
+      {
+        "Name": "Perception",
+        "Modifier": 3
+      },
+      {
+        "Name": "Stealth",
+        "Modifier": 3
+      }
+    ],
+    "Senses": [
+      "Darkvision 60ft.",
+      "Passive Perception 13"
+    ],
+    "Languages": [
+      "Yeti"
+    ],
+    "Challenge": "3",
+    "Traits": [
+      {
+        "Name": "Fear of Fire",
+        "Content": "If the yeti takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.",
+        "Usage": ""
+      },
+      {
+        "Name": "Keen Smell",
+        "Content": "The yeti has advantage on Wisdom (Perception) checks that rely on smell.",
+        "Usage": ""
+      },
+      {
+        "Name": "Snow Camoflauge",
+        "Content": "The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+        "Usage": ""
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Multiattack",
+        "Content": "The yeti can use its Chilling Gaze and makes two claw attacks.",
+        "Usage": ""
+      },
+      {
+        "Name": "Claw",
+        "Content": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage plus 3 (1d6) cold damage.",
+        "Usage": ""
+      },
+      {
+        "Name": "Chilling Gaze",
+        "Content": "The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 13 Constitution saving throw against this magic or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target’s saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.",
+        "Usage": ""
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "",
+    "LastUpdateMs": 1645575566771
+  },
+  "Creatures.open5e-axe-beak": {
+    "Id": "open5e-axe-beak",
+    "Name": "Axe Beak",
+    "Path": "",
+    "Source": "Systems Reference Document",
+    "Type": "beast ",
+    "HP": {
+      "Value": 19,
+      "Notes": "(3d10)"
+    },
+    "AC": {
+      "Value": 11,
+      "Notes": ""
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "walk 50 ft."
+    ],
+    "Abilities": {
+      "Str": 14,
+      "Dex": 12,
+      "Con": 12,
+      "Int": 2,
+      "Wis": 10,
+      "Cha": 5
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [],
+    "Senses": [
+      "passive Perception 10"
+    ],
+    "Languages": [],
+    "Challenge": "1/4",
+    "Traits": [],
+    "Actions": [
+      {
+        "Name": "Beak",
+        "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "",
+    "LastUpdateMs": 1641750563209
+  },
+  "Creatures.vi2z4zu4": {
+    "Id": "vi2z4zu4",
+    "Name": "Chwinga",
+    "Path": "",
+    "Source": "",
+    "Type": "Tiny elemental, neutral",
+    "HP": {
+      "Value": 5,
+      "Notes": "(2d4)"
+    },
+    "AC": {
+      "Value": 15,
+      "Notes": ""
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "20 ft., climb 20ft., swim 20ft."
+    ],
+    "Abilities": {
+      "Str": 1,
+      "Dex": 20,
+      "Con": 10,
+      "Int": 14,
+      "Wis": 16,
+      "Cha": 16
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [
+      {
+        "Name": "Acrobatics",
+        "Modifier": 7
+      },
+      {
+        "Name": "Perception",
+        "Modifier": 7
+      },
+      {
+        "Name": "Stealth",
+        "Modifier": 7
+      }
+    ],
+    "Senses": [
+      "Blindsight 60ft",
+      "Passive Perception 17"
+    ],
+    "Languages": [],
+    "Challenge": "0",
+    "Traits": [
+      {
+        "Name": "Evasion",
+        "Content": "When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+        "Usage": ""
+      },
+      {
+        "Name": "Innate Spellcasting",
+        "Content": "The chwinga’s innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components:\n\n• At will: druidcraft, guidance, pass without trace, resistance",
+        "Usage": ""
+      },
+      {
+        "Name": "Unusual Nature",
+        "Content": "The chwinga doesn’t require air, food, or drink. When it dies, it turns into a handful of flower petals, a cloud of pollen, a stone statuette resembling its former self, a tiny sphere of smooth stone, or a puddle of fresh water (your choice).",
+        "Usage": ""
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Druidcraft",
+        "Content": "Whispering to the spirits of nature, you create one of the following effects within range:\n- You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.\n- You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.\n- You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.\n- You instantly light or snuff out a candle, a torch, or a small campfire.",
+        "Usage": ""
+      },
+      {
+        "Name": "Guidance",
+        "Content": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.",
+        "Usage": ""
+      },
+      {
+        "Name": "Pass Without a Trace",
+        "Content": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.",
+        "Usage": ""
+      },
+      {
+        "Name": "Resistance",
+        "Content": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The spell then ends.",
+        "Usage": ""
+      },
+      {
+        "Name": "Magical Gift (1/Day)",
+        "Content": "The chwinga targets a humanoid it can see within 5 feet of it. The target gains a supernatural charm of the DM’s choice. See the Dungeon Master’s Guide for information on supernatural charms.",
+        "Usage": ""
+      },
+      {
+        "Name": "Natural Shelter",
+        "Content": "The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can’t be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn’t impair the chwinga’s blindsight. The chwinga can use its action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter’s space, but is otherwise unharmed..",
+        "Usage": ""
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "https://64.media.tumblr.com/b0cd0ebc95e4e9bc5fafaa93daf1af3d/16507e4efbc74b29-c0/s500x750/c0e34ab5f7df9a27f14e373228631fba12915b05.jpg",
+    "LastUpdateMs": 1639961076867
+  },
+  "Creatures.z2ra50r2": {
+    "Id": "z2ra50r2",
+    "Name": "Crag Cat",
+    "Path": "",
+    "Source": "Icewind Dale: Rime of the Frostmaiden",
+    "Type": "Large monstrosity, unaligned",
+    "HP": {
+      "Value": 34,
+      "Notes": "(4d10 + 12)"
+    },
+    "AC": {
+      "Value": 13,
+      "Notes": ""
+    },
+    "InitiativeModifier": 0,
+    "InitiativeAdvantage": false,
+    "Speed": [
+      "40"
+    ],
+    "Abilities": {
+      "Str": 16,
+      "Dex": 17,
+      "Con": 16,
+      "Int": 4,
+      "Wis": 14,
+      "Cha": 8
+    },
+    "DamageVulnerabilities": [],
+    "DamageResistances": [],
+    "DamageImmunities": [],
+    "ConditionImmunities": [],
+    "Saves": [],
+    "Skills": [
+      {
+        "Name": "Perception",
+        "Modifier": 4
+      },
+      {
+        "Name": "Stealth",
+        "Modifier": 7
+      }
+    ],
+    "Senses": [
+      "Darkvision 60ft.",
+      "Passive Perception (WIS) 14"
+    ],
+    "Languages": [],
+    "Challenge": "1",
+    "Traits": [
+      {
+        "Name": "Nondetection",
+        "Content": "The cat can't be targeted or detected by any divination magic or perceived through magical scrying sensors.",
+        "Usage": ""
+      },
+      {
+        "Name": "Pounce",
+        "Content": "If the cat moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the cat can make one bite attack against is as a bonus action.",
+        "Usage": ""
+      },
+      {
+        "Name": "Spell Turning",
+        "Content": "The cat has advantage on Saving Throws against any spell that targets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead targets the caster.",
+        "Usage": ""
+      }
+    ],
+    "Actions": [
+      {
+        "Name": "Bite",
+        "Content": "_Melee Weapon Attack_: +5 to hit, reach 5ft., one target. _Hit_: 8 (1d10 + 3) piercing damage.",
+        "Usage": ""
+      },
+      {
+        "Name": "Claw",
+        "Content": "_Melee Weapon Attack_: +5 to hit, reach 5 ft., one target. _Hit_: 7 (1d8 + 3) slashing damage.",
+        "Usage": ""
+      }
+    ],
+    "BonusActions": [],
+    "Reactions": [],
+    "LegendaryActions": [],
+    "MythicActions": [],
+    "Description": "",
+    "Player": "",
+    "Version": "3.2.6",
+    "ImageURL": "https://thealexandrian.net/images/20210812.png",
+    "LastUpdateMs": 1639863155192
+  },
+  "Spells.5bc468i5": {
+    "Id": "5bc468i5",
+    "Version": "3.2.6",
+    "Name": "Crown of Madness",
+    "Path": "",
+    "Source": "Player's Handbook",
+    "CastingTime": "1 Action",
+    "Classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard",
+      "Oathbreaker"
+    ],
+    "Components": "V, S",
+    "Description": "One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration.\n\nWhile the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.\n\nThe charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach.\n\nOn your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.",
+    "Duration": "1 Minute",
+    "Level": "2",
+    "Range": "120 ft",
+    "Ritual": false,
+    "School": "Enchantment",
+    "LastUpdateMs": 1645590696465
+  },
+  "Spells.5p9ain7e": {
+    "Id": "5p9ain7e",
+    "Version": "3.2.6",
+    "Name": "Chromatic Orb",
+    "Path": "",
+    "Source": "Player's Handbook",
+    "CastingTime": "1 Action",
+    "Classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "Components": "V, S, M (a diamond worth at least 50 gp)",
+    "Description": "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose.\n\n**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+    "Duration": "Instantaneous",
+    "Level": "1",
+    "Range": "90 ft",
+    "Ritual": false,
+    "School": "Evocation",
+    "LastUpdateMs": 1645590585654
+  },
   "PersistentCharacters.04mzuin2": {
     "Id": "04mzuin2",
-    "Version": "3.2.6",
+    "Version": "3.2.7",
     "Name": "Aluka",
     "Path": "",
-    "LastUpdateMs": 1638544885765,
-    "CurrentHP": 19,
+    "LastUpdateMs": 1650224245171,
+    "CurrentHP": 32,
     "StatBlock": {
       "Id": "04mzuin2",
       "Name": "Aluka",
       "Path": "",
-      "Source": "Systems Reference Document",
-      "Type": "humanoid (any race)",
+      "Source": "https://www.dndbeyond.com/profile/mcole2009/characters/66153290",
+      "Type": "Human",
       "HP": {
-        "Value": 19,
-        "Notes": "(3d8)"
+        "Value": 32,
+        "Notes": ""
       },
       "AC": {
-        "Value": 13,
-        "Notes": "(leather armor)"
+        "Value": 15,
+        "Notes": "(studded leather armor)"
       },
-      "InitiativeModifier": 0,
+      "InitiativeModifier": 5,
       "InitiativeAdvantage": false,
       "Speed": [
-        "walk 30 ft."
+        "30 ft."
       ],
       "Abilities": {
-        "Str": 11,
-        "Dex": 14,
-        "Con": 12,
-        "Int": 11,
-        "Wis": 13,
-        "Cha": 11
+        "Str": 12,
+        "Dex": 16,
+        "Con": 13,
+        "Int": 10,
+        "Wis": 16,
+        "Cha": 8
       },
       "DamageVulnerabilities": [],
       "DamageResistances": [],
@@ -285,14 +1381,46 @@
       "ConditionImmunities": [],
       "Saves": [
         {
-          "Name": "Dexterity",
-          "Modifier": 4
+          "Name": "Str",
+          "Modifier": 3
+        },
+        {
+          "Name": "Dex",
+          "Modifier": 5
+        },
+        {
+          "Name": "Con",
+          "Modifier": 1
+        },
+        {
+          "Name": "Int",
+          "Modifier": 0
+        },
+        {
+          "Name": "Wis",
+          "Modifier": 3
+        },
+        {
+          "Name": "Cha",
+          "Modifier": -1
         }
       ],
       "Skills": [
         {
+          "Name": "Acrobatics",
+          "Modifier": 5
+        },
+        {
+          "Name": "Animal Handling",
+          "Modifier": 5
+        },
+        {
+          "Name": "Athletics",
+          "Modifier": 3
+        },
+        {
           "Name": "Nature",
-          "Modifier": 6
+          "Modifier": 2
         },
         {
           "Name": "Perception",
@@ -300,78 +1428,385 @@
         },
         {
           "Name": "Stealth",
-          "Modifier": 8
+          "Modifier": 5
         },
         {
           "Name": "Survival",
           "Modifier": 7
-        },
-        {
-          "Name": "Medicine",
-          "Modifier": 3
-        },
-        {
-          "Name": "Acrobatics",
-          "Modifier": 4
         }
       ],
       "Senses": [
-        "passive Perception 15"
+        "Passive Perception (WIS) 15",
+        "Passive Investigation (INT) 10",
+        "Passive Insight (WIS) 13"
       ],
       "Languages": [
-        "Reghed",
-        "_Some_ Common"
+        "Common",
+        "Reghed"
       ],
-      "Challenge": "2",
+      "Challenge": "4",
       "Traits": [
         {
-          "Name": "Keen Hearing and Sight",
-          "Content": "Aluka has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+          "Name": "Colossus Slayer",
+          "Content": "Once per turn, when you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its HP maximum.",
+          "Usage": ""
         },
         {
-          "Name": "Bonus Proficiencies",
-          "Content": "Aluka is proficient with Leather Armor and Simple Weapons",
+          "Name": "Primeval Awareness",
+          "Content": "As an action, you can expend one ranger spell slot (1 minute per level of spell slot) to sense whether any aberrations, celestials, dragons, elementals, fey, fiends, or undead are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain). This feature doesn’t reveal the creatures’ location or number.",
           "Usage": ""
         }
       ],
       "Actions": [
         {
-          "Name": "Multiattack",
-          "Content": "Aluka makes two melee attacks or two ranged attacks."
-        },
-        {
-          "Name": "Spear",
-          "Content": "_Melee Weapon Attack:_ +4 to hit, reach 10 (20/60) ft., one target. _Hit:_ 5 (1d6 + 2) piercing damage."
-        },
-        {
-          "Name": "Dagger",
-          "Content": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4 + 2) piercing damage.",
+          "Name": "Longbow",
+          "Content": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
           "Usage": ""
         },
         {
-          "Name": "Shortbow",
-          "Content": "Ranged Weapon Attack: +4 to hit, ranged 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-        }
-      ],
-      "BonusActions": [
-        {
-          "Name": "Helpful",
-          "Content": "Aluka is adept at giving well-timed assistance and can take the Help action as a bonus action",
-          "Usage": ""
-        },
-        {
-          "Name": "Cunning Action",
-          "Content": "Aluka's agility allows her to act speedily. On her turn in combat, she can take the Dash, Disengage, or Hide actions as a bonus action.",
+          "Name": "Scimitar",
+          "Content": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
           "Usage": ""
         }
       ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "3.2.7",
+      "ImageURL": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F52fb3834-f3b1-4273-a53e-0189b1d9cc08%2FAluka.png?table=block&id=20609f0c-105d-4631-88be-3177639a64b2&spaceId=cdf14a20-1e9c-4bf5-8b47-217c26991671&width=2000&userId=fcce57b3-b69e-46cd-8b20-5f86f950eb92&cache=v2"
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.137my062": {
+    "Name": "Spellix Romwod",
+    "Path": "Archive",
+    "Id": "137my062",
+    "LastUpdateMs": 1650152448853,
+    "SearchHint": "Small humanoid (gnome), chaotic neutral",
+    "FilterDimensions": {
+      "Level": "3"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.6",
+    "CurrentHP": 19,
+    "StatBlock": {
+      "Id": "137my062",
+      "Name": "Spellix Romwod",
+      "Path": "",
+      "Source": "Icewind Dale: Rime of the Frostmaiden",
+      "Type": "Small humanoid (gnome), chaotic neutral",
+      "HP": {
+        "Value": 33,
+        "Notes": "(6d6+12)"
+      },
+      "AC": {
+        "Value": 14,
+        "Notes": "(Hide Armor)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "25 ft."
+      ],
+      "Abilities": {
+        "Str": 6,
+        "Dex": 15,
+        "Con": 14,
+        "Int": 15,
+        "Wis": 9,
+        "Cha": 16
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [
+        {
+          "Name": "Arcana",
+          "Modifier": 4
+        },
+        {
+          "Name": "Deception",
+          "Modifier": 5
+        },
+        {
+          "Name": "History",
+          "Modifier": 4
+        }
+      ],
+      "Senses": [
+        "Darkvision 60ft.",
+        "Passive Perception 9"
+      ],
+      "Languages": [
+        "Common",
+        "Draconic",
+        "Elvish",
+        "Gnomish",
+        "Goblin"
+      ],
+      "Challenge": "1/2",
+      "Traits": [
+        {
+          "Name": "Gnome Cunning",
+          "Content": "Spellix has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.",
+          "Usage": ""
+        },
+        {
+          "Name": "Innate Spellcasting",
+          "Content": "Spellix's spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He can innately cast the following spells, requiring no material components:\n\nAt will: fire bolt, mage hand, shocking grasp\n1st Level (3/day): silent image\n2nd Level (1/day): chromatic orb, crown of madness, shield",
+          "Usage": ""
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Shocking Grasp (Cantrip)",
+          "Content": "Melee Spell Attack: +5 to hit (with advantage on the attack roll if the target is wearing armor made of metal), reach 5 ft., one create. Hit: 4 (1d8) lightning damage, and the target can't take reactions until the start of its next turn.",
+          "Usage": ""
+        },
+        {
+          "Name": "Fire Bolt (Cantrip)",
+          "Content": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 5 (1d10) fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
+          "Usage": ""
+        }
+      ],
+      "BonusActions": [],
       "Reactions": [],
       "LegendaryActions": [],
       "MythicActions": [],
       "Description": "",
       "Player": "player",
       "Version": "3.2.6",
-      "ImageURL": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F52fb3834-f3b1-4273-a53e-0189b1d9cc08%2FAluka.png?table=block&id=20609f0c-105d-4631-88be-3177639a64b2&spaceId=cdf14a20-1e9c-4bf5-8b47-217c26991671&width=2000&userId=fcce57b3-b69e-46cd-8b20-5f86f950eb92&cache=v2"
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.1xx62nyy": {
+    "Id": "1xx62nyy",
+    "Version": "3.2.7",
+    "Name": "Nick Valentine",
+    "Path": "",
+    "LastUpdateMs": 1651356909868,
+    "CurrentHP": 12,
+    "StatBlock": {
+      "Id": "1xx62nyy",
+      "Name": "Nick Valentine",
+      "Path": "",
+      "Source": "",
+      "Type": "",
+      "HP": {
+        "Value": 12,
+        "Notes": "(1d10+2)"
+      },
+      "AC": {
+        "Value": 17,
+        "Notes": "Chain Mail"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "30 ft."
+      ],
+      "Abilities": {
+        "Str": 16,
+        "Dex": 13,
+        "Con": 14,
+        "Int": 8,
+        "Wis": 10,
+        "Cha": 14
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [
+        "Poison"
+      ],
+      "DamageImmunities": [],
+      "ConditionImmunities": [
+        "Disease"
+      ],
+      "Saves": [
+        {
+          "Name": "Str",
+          "Modifier": 3
+        },
+        {
+          "Name": "Dex",
+          "Modifier": 1
+        },
+        {
+          "Name": "Con",
+          "Modifier": 2
+        },
+        {
+          "Name": "Int",
+          "Modifier": -1
+        },
+        {
+          "Name": "Wis",
+          "Modifier": 2
+        },
+        {
+          "Name": "Cha",
+          "Modifier": 4
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Acrobatics",
+          "Modifier": 3
+        },
+        {
+          "Name": "Athletics",
+          "Modifier": 5
+        },
+        {
+          "Name": "Intimidation",
+          "Modifier": 4
+        },
+        {
+          "Name": "Perception",
+          "Modifier": 2
+        },
+        {
+          "Name": "Persuasion",
+          "Modifier": 4
+        }
+      ],
+      "Senses": [
+        "Passive Perception (WIS) 12",
+        "Passive Investigation (INT) 9",
+        "Passive Insight (WIS) 10"
+      ],
+      "Languages": [
+        "Common",
+        "Orc"
+      ],
+      "Challenge": "1",
+      "Traits": [
+        {
+          "Name": "Divine Sense",
+          "Content": "As an action, you can detect good and evil. Until the end of your next turn, you can sense anything affected by the hallow spell or know the location of any celestial, fiend, undead within 60 ft. that is not behind total cover. You can use this feature 3 times per long rest.",
+          "Usage": "1/day"
+        },
+        {
+          "Name": "Lay on Hands",
+          "Content": "You have a pool of healing power that can restore 5 HP per long rest. As an action, you can touch a creature to restore any number of HP remaining in the pool, or 5 HP to either cure a disease or neutralize a poison affecting the creature.",
+          "Usage": ""
+        },
+        {
+          "Name": "Constructed Resilience",
+          "Content": "You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n\nYou don’t need to eat, drink, or breathe. You are immune to disease. You don’t need to sleep, and magic can’t put you to sleep.",
+          "Usage": ""
+        },
+        {
+          "Name": "Sentry's Rest",
+          "Content": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.\n",
+          "Usage": ""
+        },
+        {
+          "Name": "Integrated Protection",
+          "Content": "You gain a +1 bonus to Armor Class. To don or doff armor other than a shield takes 1 hour, and you must be proficient with the armor.\n\nWhile you live, your incorporated armor can’t be removed from your body against your will.",
+          "Usage": ""
+        }
+      ],
+      "Actions": [],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.7",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.2ceemid1": {
+    "Id": "2ceemid1",
+    "Version": "3.2.7",
+    "Name": "Skath",
+    "Path": "",
+    "LastUpdateMs": 1650153511310,
+    "CurrentHP": 65,
+    "StatBlock": {
+      "Id": "2ceemid1",
+      "Name": "Skath",
+      "Path": "",
+      "Source": "Icewind Dale: Rime of the Frostmaiden",
+      "Type": "Tiefling",
+      "HP": {
+        "Value": 65,
+        "Notes": "(9d8)"
+      },
+      "AC": {
+        "Value": 17,
+        "Notes": "(splint)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 16,
+        "Dex": 13,
+        "Con": 14,
+        "Int": 10,
+        "Wis": 11,
+        "Cha": 10
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [
+        {
+          "Name": "Athletics",
+          "Modifier": 5
+        },
+        {
+          "Name": "Perception",
+          "Modifier": 2
+        }
+      ],
+      "Senses": [
+        "passive Perception 12"
+      ],
+      "Languages": [
+        "Common"
+      ],
+      "Challenge": "3",
+      "Traits": [],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "Skath makes two longsword attacks. If he has a shortsword drawn, he can also make a shortsword attack."
+        },
+        {
+          "Name": "Longsword",
+          "Content": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+        },
+        {
+          "Name": "Shortsword",
+          "Content": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+        },
+        {
+          "Name": "Heavy Crossbow",
+          "Content": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage."
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.7",
+      "ImageURL": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8961aa3f-452d-4dee-82de-d35839ce4514/Skath.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220416%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220416T235825Z&X-Amz-Expires=86400&X-Amz-Signature=8593d344fcd9e0778334624af9fa704150742268044620c50bbb9f00de9b5e7e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Skath.png%22&x-id=GetObject"
     },
     "Notes": ""
   },
@@ -450,12 +1885,242 @@
     },
     "Notes": ""
   },
-  "PersistentCharacters.8najh0q5": {
-    "Id": "8najh0q5",
+  "PersistentCharacters.2q7zkr31": {
+    "Id": "2q7zkr31",
+    "Name": "Wulfgar",
+    "Path": "Archive",
+    "Link": "PersistentCharacters",
+    "SearchHint": "humanoid (any race)",
+    "FilterDimensions": {
+      "Level": "5"
+    },
+    "LastUpdateMs": 1646588859308,
     "Version": "3.2.6",
+    "CurrentHP": 112,
+    "StatBlock": {
+      "Id": "2q7zkr31",
+      "Name": "Wulfgar",
+      "Path": "",
+      "Source": "Systems Reference Document",
+      "Type": "humanoid (any race)",
+      "HP": {
+        "Value": 112,
+        "Notes": "(15d8)"
+      },
+      "AC": {
+        "Value": 16,
+        "Notes": "(hide armor, shield)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 18,
+        "Dex": 15,
+        "Con": 16,
+        "Int": 10,
+        "Wis": 12,
+        "Cha": 15
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "Str",
+          "Modifier": 7
+        },
+        {
+          "Name": "Dex",
+          "Modifier": 5
+        },
+        {
+          "Name": "Con",
+          "Modifier": 6
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Athletics",
+          "Modifier": 10
+        },
+        {
+          "Name": "Intimidation",
+          "Modifier": 5
+        },
+        {
+          "Name": "Survival",
+          "Modifier": 5
+        }
+      ],
+      "Senses": [
+        "passive Perception 11"
+      ],
+      "Languages": [
+        "Common",
+        "Reghed"
+      ],
+      "Challenge": "5",
+      "Traits": [
+        {
+          "Name": "Brave",
+          "Content": "The gladiator has advantage on saving throws against being frightened."
+        },
+        {
+          "Name": "Brute",
+          "Content": "A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack)."
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "The gladiator makes three melee attacks or two ranged attacks."
+        },
+        {
+          "Name": "Spear",
+          "Content": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack."
+        },
+        {
+          "Name": "Shield Bash",
+          "Content": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [
+        {
+          "Name": "Parry",
+          "Content": "The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon."
+        }
+      ],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.4t8ya2y5": {
+    "Name": "Sephek Kaltro",
+    "Path": "Archive",
+    "Id": "4t8ya2y5",
+    "LastUpdateMs": 1650152435314,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": ""
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.6",
+    "CurrentHP": 75,
+    "StatBlock": {
+      "Id": "4t8ya2y5",
+      "Name": "Sephek Kaltro",
+      "Path": "",
+      "Source": "Icewind Dale: Rime of the Frostmaiden",
+      "Type": "Medium Undead, Neutral Evil",
+      "HP": {
+        "Value": 75,
+        "Notes": "(10d8 + 30)"
+      },
+      "AC": {
+        "Value": 12,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "30 ft."
+      ],
+      "Abilities": {
+        "Str": 16,
+        "Dex": 14,
+        "Con": 16,
+        "Int": 11,
+        "Wis": 16,
+        "Cha": 18
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [
+        "Cold"
+      ],
+      "ConditionImmunities": [
+        "Charmed",
+        "Frightened"
+      ],
+      "Saves": [],
+      "Skills": [
+        {
+          "Name": "Perception",
+          "Modifier": 5
+        },
+        {
+          "Name": "Survival",
+          "Modifier": 5
+        }
+      ],
+      "Senses": [
+        "Passive Perception 15"
+      ],
+      "Languages": [
+        "Common"
+      ],
+      "Challenge": "3",
+      "Traits": [
+        {
+          "Name": "Innate Spellcasting",
+          "Content": "Sephek can innately cast _misty step_ up to three times per day, requiring no components. His innate spell casting ability is Charisma",
+          "Usage": ""
+        },
+        {
+          "Name": "Cold Regeneration",
+          "Content": "If the temperature around him is 0 degrees Fahrenheit or lower, Sephek regains 5 hit points at the start of his turn. If he takes fire damage, this trait doesn't function at the start of Sephek's next turn. Sephek dies only if he starts his turn with 0 hit points and doesn't regenerate.",
+          "Usage": ""
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "Sephek attacks twice with a weapons",
+          "Usage": ""
+        },
+        {
+          "Name": "Ice Longsword",
+          "Content": "_Melee Weapon Attack_ +5 to hit, reach 5 ft., one target. _Hit_ 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if Sephek uses the weapon with two hands, plus 5 (2d4) cold damage.",
+          "Usage": ""
+        },
+        {
+          "Name": "Ice Dagger",
+          "Content": "_Ranged Weapon Attack_ +5 to hit, reach 5ft. or range 20/60 ft., one target. _Hit:_ 5 (1d4 + 4) piercing damage plus 5 (2d4) cold damage.",
+          "Usage": ""
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.6",
+      "ImageURL": "data:image/jpeg;base64,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"
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.8najh0q5": {
     "Name": "Sildar Hallwinter",
-    "Path": "",
-    "LastUpdateMs": 1639179395151,
+    "Path": "Lost Mines of Phandelver",
+    "Id": "8najh0q5",
+    "LastUpdateMs": 1639694972829,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": "1"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.6",
     "CurrentHP": 27,
     "StatBlock": {
       "Id": "8najh0q5",
@@ -539,6 +2204,119 @@
       "MythicActions": [],
       "Description": "Sildar Hallwinter is a retired soldier and sellsword who hails from the city of Neverwinter. He is a loyal member of the Lords’ Alliance, a political organization that unites the various free cities and towns of the North.",
       "Player": "player",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.9gecupb1": {
+    "Name": "Jarund Elkhardt",
+    "Path": "Archive",
+    "Id": "9gecupb1",
+    "LastUpdateMs": 1646588859312,
+    "SearchHint": "humanoid (any race)",
+    "FilterDimensions": {
+      "Level": "5"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.6",
+    "CurrentHP": 104,
+    "StatBlock": {
+      "Id": "9gecupb1",
+      "Name": "Jarund Elkhardt",
+      "Path": "",
+      "Source": "Systems Reference Document",
+      "Type": "humanoid (any race)",
+      "HP": {
+        "Value": 104,
+        "Notes": "(16d8+32)"
+      },
+      "AC": {
+        "Value": 14,
+        "Notes": "(hide armor, shield)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 18,
+        "Dex": 10,
+        "Con": 15,
+        "Int": 12,
+        "Wis": 14,
+        "Cha": 18
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "Con",
+          "Modifier": 5
+        },
+        {
+          "Name": "Wis",
+          "Modifier": 5
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Athletics",
+          "Modifier": 7
+        },
+        {
+          "Name": "Intimidation",
+          "Modifier": 7
+        },
+        {
+          "Name": "Survival",
+          "Modifier": 5
+        }
+      ],
+      "Senses": [
+        "passive Perception 12"
+      ],
+      "Languages": [
+        "Common",
+        "Reghed",
+        "Dwarvish"
+      ],
+      "Challenge": "5",
+      "Traits": [
+        {
+          "Name": "Brute",
+          "Content": "A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack)."
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "The gladiator makes three melee attacks."
+        },
+        {
+          "Name": "Warhammer",
+          "Content": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, or 15 (2d10 + 4) bludgeoning damage when used with two hands.",
+          "Usage": ""
+        },
+        {
+          "Name": "Shield Bash",
+          "Content": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) bludgeoning damage, and Jarund pushes the target 5 feet away from him if it's Large or smaller. Jarund then enters the space vacated by the target. If the target is pushed to within 5 feet of a creature friendly to Jarund, that creature can make an attack against the target as a reaction."
+        },
+        {
+          "Name": "Javelin",
+          "Content": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+          "Usage": ""
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
       "Version": "3.2.6",
       "ImageURL": ""
     },
@@ -942,6 +2720,222 @@
     },
     "Notes": ""
   },
+  "PersistentCharacters.anrzzxkk": {
+    "Id": "anrzzxkk",
+    "Version": "3.2.7",
+    "Name": "Prudence Tarkwold",
+    "Path": "",
+    "LastUpdateMs": 1650155470918,
+    "CurrentHP": 27,
+    "StatBlock": {
+      "Id": "anrzzxkk",
+      "Name": "Prudence Tarkwold",
+      "Path": "",
+      "Source": "Icewind Dale: Rime of the Frostmaiden",
+      "Type": "Human",
+      "HP": {
+        "Value": 27,
+        "Notes": "(6d8)"
+      },
+      "AC": {
+        "Value": 12,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 10,
+        "Dex": 15,
+        "Con": 10,
+        "Int": 12,
+        "Wis": 14,
+        "Cha": 16
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [
+        {
+          "Name": "Deception",
+          "Modifier": 5
+        },
+        {
+          "Name": "Insight",
+          "Modifier": 4
+        },
+        {
+          "Name": "Investigation",
+          "Modifier": 5
+        },
+        {
+          "Name": "Perception",
+          "Modifier": 6
+        },
+        {
+          "Name": "Persuasion",
+          "Modifier": 5
+        },
+        {
+          "Name": "Stealth",
+          "Modifier": 4
+        }
+      ],
+      "Senses": [
+        "passive Perception 16"
+      ],
+      "Languages": [
+        "Common",
+        "Reghed"
+      ],
+      "Challenge": "1",
+      "Traits": [
+        {
+          "Name": "Cunning Action",
+          "Content": "On each of her turns, Prudence can use a bonus action to take the Dash, Disengage, or Hide action."
+        },
+        {
+          "Name": "Sneak Attack (1/Turn)",
+          "Content": "Prudence deals an extra 7 (2d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of Prudence that isn't incapacitated and Prudence doesn't have disadvantage on the attack roll."
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "Prudencev makes two melee attacks."
+        },
+        {
+          "Name": "Shortsword",
+          "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        },
+        {
+          "Name": "Hand Crossbow",
+          "Content": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.7",
+      "ImageURL": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f4074f9-6619-47cd-8cf0-ee4215768784/PrudenceTarkwold.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220417T003103Z&X-Amz-Expires=86400&X-Amz-Signature=6f2fc591a9fbe1c92fc904d5bc4db034c5c420513636757b54e67941c15558b5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22PrudenceTarkwold.png%22&x-id=GetObject"
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.aqztfun8": {
+    "Id": "aqztfun8",
+    "Version": "3.2.7",
+    "Name": "Naerth Maxildanarr",
+    "Path": "",
+    "LastUpdateMs": 1650153176381,
+    "CurrentHP": 48,
+    "StatBlock": {
+      "Id": "aqztfun8",
+      "Name": "Naerth Maxildanarr",
+      "Path": "",
+      "Source": "Icewind Dale: Rime of the Frostmaiden",
+      "Type": "human",
+      "HP": {
+        "Value": 48,
+        "Notes": "(6d8) - MAX"
+      },
+      "AC": {
+        "Value": 12,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 10,
+        "Dex": 15,
+        "Con": 10,
+        "Int": 12,
+        "Wis": 14,
+        "Cha": 16
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [
+        {
+          "Name": "Deception",
+          "Modifier": 5
+        },
+        {
+          "Name": "Insight",
+          "Modifier": 4
+        },
+        {
+          "Name": "Investigation",
+          "Modifier": 5
+        },
+        {
+          "Name": "Perception",
+          "Modifier": 6
+        },
+        {
+          "Name": "Persuasion",
+          "Modifier": 5
+        },
+        {
+          "Name": "Stealth",
+          "Modifier": 4
+        }
+      ],
+      "Senses": [
+        "passive Perception 16"
+      ],
+      "Languages": [
+        "Common",
+        "Dwarvish"
+      ],
+      "Challenge": "1",
+      "Traits": [
+        {
+          "Name": "Cunning Action",
+          "Content": "On each of his turns, Naerth can use a bonus action to take the Dash, Disengage, or Hide action."
+        },
+        {
+          "Name": "Sneak Attack (1/Turn)",
+          "Content": "Naerth deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of Naerth that isn't incapacitated and Naerth doesn't have disadvantage on the attack roll."
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "Naerth makes two melee attacks."
+        },
+        {
+          "Name": "Shortsword",
+          "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        },
+        {
+          "Name": "Hand Crossbow",
+          "Content": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.7",
+      "ImageURL": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5f1c1aa4-fc6a-43cd-87c7-35a5cf030589/characters_H7OUqSZG9sWgdUeL3xn1Fgv4jebb1njlPTzCqkIX.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220416%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220416T234249Z&X-Amz-Expires=86400&X-Amz-Signature=ff2db38a91ef3ef6f92ca3786ddbddb95623c718fc35b663c3bc332a8e67c777&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22characters_H7OUqSZG9sWgdUeL3xn1Fgv4jebb1njlPTzCqkIX.webp%22&x-id=GetObject"
+    },
+    "Notes": ""
+  },
   "PersistentCharacters.b7kx8fqq": {
     "Name": "Vivian Cross (Riverbend - Inspector)",
     "Path": "Archive",
@@ -1066,11 +3060,16 @@
     "Notes": ""
   },
   "PersistentCharacters.cpcysy40": {
-    "Id": "cpcysy40",
-    "Version": "3.2.6",
     "Name": "Trisleenyas Ofandrus",
-    "Path": "",
-    "LastUpdateMs": 1639179583280,
+    "Path": "Lost Mines of Phandelver",
+    "Id": "cpcysy40",
+    "LastUpdateMs": 1639694956419,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": ""
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.6",
     "CurrentHP": 10,
     "StatBlock": {
       "Id": "cpcysy40",
@@ -1120,11 +3119,16 @@
     "Notes": ""
   },
   "PersistentCharacters.dej38nuf": {
-    "Id": "dej38nuf",
-    "Version": "3.2.6",
     "Name": "Will (Torinn Delmirev)",
-    "Path": "",
-    "LastUpdateMs": 1639179615613,
+    "Path": "Lost Mines of Phandelver",
+    "Id": "dej38nuf",
+    "LastUpdateMs": 1639694961785,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": ""
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.6",
     "CurrentHP": 12,
     "StatBlock": {
       "Id": "dej38nuf",
@@ -1174,11 +3178,16 @@
     "Notes": ""
   },
   "PersistentCharacters.g32aqshm": {
-    "Id": "g32aqshm",
-    "Version": "3.2.6",
     "Name": "Milo Switi",
-    "Path": "",
-    "LastUpdateMs": 1639179545018,
+    "Path": "Lost Mines of Phandelver",
+    "Id": "g32aqshm",
+    "LastUpdateMs": 1639694939755,
+    "SearchHint": "",
+    "FilterDimensions": {
+      "Level": ""
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.6",
     "CurrentHP": 9,
     "StatBlock": {
       "Id": "g32aqshm",
@@ -1224,6 +3233,119 @@
       "Player": "player",
       "Version": "3.2.6",
       "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.g3u3agxe": {
+    "Name": "Torrga",
+    "Path": "Archive",
+    "Id": "g3u3agxe",
+    "LastUpdateMs": 1650152452922,
+    "SearchHint": "humanoid (any race)",
+    "FilterDimensions": {
+      "Level": "2"
+    },
+    "Link": "PersistentCharacters",
+    "Version": "3.2.6",
+    "CurrentHP": 65,
+    "StatBlock": {
+      "Id": "g3u3agxe",
+      "Name": "Torrga",
+      "Path": "",
+      "Source": "Systems Reference Document",
+      "Type": "humanoid (any race)",
+      "HP": {
+        "Value": 65,
+        "Notes": "(10d8)"
+      },
+      "AC": {
+        "Value": 15,
+        "Notes": "(studded leather)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 15,
+        "Dex": 16,
+        "Con": 14,
+        "Int": 14,
+        "Wis": 11,
+        "Cha": 14
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "Str",
+          "Modifier": 4
+        },
+        {
+          "Name": "Dex",
+          "Modifier": 5
+        },
+        {
+          "Name": "Wis",
+          "Modifier": 2
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Athletics",
+          "Modifier": 4
+        },
+        {
+          "Name": "Deception",
+          "Modifier": 4
+        }
+      ],
+      "Senses": [
+        "passive Perception 10",
+        "Darkvision 60 ft"
+      ],
+      "Languages": [
+        "Common",
+        "Dwarvish"
+      ],
+      "Challenge": "2",
+      "Traits": [
+        {
+          "Name": "Dwarven Resilience",
+          "Content": "Has advantage on saving throws against poison",
+          "Usage": ""
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Multiattack",
+          "Content": "The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers."
+        },
+        {
+          "Name": "Scimitar",
+          "Content": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+        },
+        {
+          "Name": "Dagger",
+          "Content": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [
+        {
+          "Name": "Parry",
+          "Content": "The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon."
+        }
+      ],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.6",
+      "ImageURL": "https://db4sgowjqfwig.cloudfront.net/images/6115738/36c59d119b398938858e8230d434ed2f--medieval-fantasy-character-art.jpg"
     },
     "Notes": ""
   },
@@ -1443,8 +3565,8 @@
     "Version": "3.2.6",
     "Name": "Tiaq",
     "Path": "",
-    "LastUpdateMs": 1638544837684,
-    "CurrentHP": 22,
+    "LastUpdateMs": 1647728740164,
+    "CurrentHP": 36,
     "StatBlock": {
       "Id": "k9hzz7a0",
       "Name": "Tiaq",
@@ -1452,11 +3574,11 @@
       "Source": "",
       "Type": "",
       "HP": {
-        "Value": 24,
+        "Value": 36,
         "Notes": ""
       },
       "AC": {
-        "Value": 18,
+        "Value": 17,
         "Notes": ""
       },
       "InitiativeModifier": 0,
@@ -1487,7 +3609,7 @@
         "Common",
         "Draconic"
       ],
-      "Challenge": "2",
+      "Challenge": "3",
       "Traits": [],
       "Actions": [],
       "BonusActions": [],
@@ -1605,6 +3727,87 @@
     },
     "Notes": ""
   },
+  "PersistentCharacters.mp89xiej": {
+    "Id": "mp89xiej",
+    "Version": "3.2.6",
+    "Name": "Bork",
+    "Path": "",
+    "LastUpdateMs": 1645996284166,
+    "CurrentHP": 7,
+    "StatBlock": {
+      "Id": "mp89xiej",
+      "Name": "Bork",
+      "Path": "",
+      "Source": "Systems Reference Document",
+      "Type": "humanoid (goblinoid)",
+      "HP": {
+        "Value": 7,
+        "Notes": "(2d6)"
+      },
+      "AC": {
+        "Value": 15,
+        "Notes": "(leather armor, shield)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 8,
+        "Dex": 14,
+        "Con": 10,
+        "Int": 10,
+        "Wis": 8,
+        "Cha": 8
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [
+        {
+          "Name": "Stealth",
+          "Modifier": 6
+        }
+      ],
+      "Senses": [
+        "darkvision 60 ft.",
+        "passive Perception 9"
+      ],
+      "Languages": [
+        "Common",
+        "Goblin"
+      ],
+      "Challenge": "1/4",
+      "Traits": [
+        {
+          "Name": "Nimble Escape",
+          "Content": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Scimitar",
+          "Content": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+        },
+        {
+          "Name": "Shortbow",
+          "Content": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
   "PersistentCharacters.r83bkqk0": {
     "Name": "The Fingers",
     "Path": "Archive",
@@ -1678,6 +3881,168 @@
       "Description": "",
       "Player": "",
       "Version": "2.17.0",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
+  "PersistentCharacters.tp4az3dv": {
+    "Id": "tp4az3dv",
+    "Version": "3.2.7",
+    "Name": "Mimir",
+    "Path": "",
+    "LastUpdateMs": 1650224670272,
+    "CurrentHP": 19,
+    "StatBlock": {
+      "Id": "tp4az3dv",
+      "Name": "Mimir",
+      "Path": "",
+      "Source": "",
+      "Type": "",
+      "HP": {
+        "Value": 19,
+        "Notes": ""
+      },
+      "AC": {
+        "Value": 9,
+        "Notes": ""
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "0 ft."
+      ],
+      "Abilities": {
+        "Str": 8,
+        "Dex": 8,
+        "Con": 8,
+        "Int": 17,
+        "Wis": 16,
+        "Cha": 15
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [
+        {
+          "Name": "Str",
+          "Modifier": -1
+        },
+        {
+          "Name": "Dex",
+          "Modifier": -1
+        },
+        {
+          "Name": "Con",
+          "Modifier": -1
+        },
+        {
+          "Name": "Int",
+          "Modifier": 3
+        },
+        {
+          "Name": "Wis",
+          "Modifier": 5
+        },
+        {
+          "Name": "Cha",
+          "Modifier": 4
+        }
+      ],
+      "Skills": [
+        {
+          "Name": "Arcana",
+          "Modifier": 7
+        },
+        {
+          "Name": "Deception",
+          "Modifier": 4
+        },
+        {
+          "Name": "History",
+          "Modifier": 7
+        },
+        {
+          "Name": "Insight",
+          "Modifier": 5
+        },
+        {
+          "Name": "Nature",
+          "Modifier": 5
+        },
+        {
+          "Name": "Persuasion",
+          "Modifier": 4
+        },
+        {
+          "Name": "Religion",
+          "Modifier": 5
+        }
+      ],
+      "Senses": [
+        "Passive Perception (WIS) 13",
+        "Passive Investigation (INT) 13",
+        "Passive Insight (WIS) 15"
+      ],
+      "Languages": [
+        "Celestial",
+        "Common",
+        "Draconic",
+        "Dwarvish",
+        "Elvish",
+        "Giant",
+        "Gnomish",
+        "Goblin",
+        "Undercommon"
+      ],
+      "Challenge": "4",
+      "Traits": [
+        {
+          "Name": "Channel Divinity: Turn Undead",
+          "Content": "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.",
+          "Usage": ""
+        },
+        {
+          "Name": "Channel Divinity: Knowledge of the Ages",
+          "Content": "Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool.",
+          "Usage": ""
+        },
+        {
+          "Name": "War Caster",
+          "Content": "You have advantage on CON saving throws that you make to maintain your concentration on a spell when you take damage. You can perform the somatic components of spells even when you have weapons or a shield in one or both hands. You can use your reaction to make an opportunity attack to cast a spell that has a casting time of 1 action and targets only that creature.",
+          "Usage": ""
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Sacred Flame",
+          "Content": "Flame-like radiance descends on a creature that you can see within 60 ft. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.",
+          "Usage": ""
+        },
+        {
+          "Name": "Toll the Dead",
+          "Content": "You point at one creature you can see within 60 ft., and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 1d8 necrotic damage. If the target is missing any of its hit points, it instead takes 1d12 necrotic damage.",
+          "Usage": ""
+        },
+        {
+          "Name": "Guiding Bolt",
+          "Content": "A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack (+5) against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.\n",
+          "Usage": ""
+        }
+      ],
+      "BonusActions": [
+        {
+          "Name": "Spiritual Weapon",
+          "Content": "You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack (+5) against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.\n\nAs a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.\n\nThe weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.",
+          "Usage": ""
+        }
+      ],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "player",
+      "Version": "3.2.7",
       "ImageURL": ""
     },
     "Notes": ""
@@ -1907,6 +4272,98 @@
     },
     "Notes": ""
   },
+  "PersistentCharacters.zfma1t3h": {
+    "Id": "zfma1t3h",
+    "Name": "Mjenir",
+    "Path": "Archive",
+    "Link": "PersistentCharacters",
+    "SearchHint": "humanoid (Human)",
+    "FilterDimensions": {
+      "Level": "2"
+    },
+    "LastUpdateMs": 1646588859304,
+    "Version": "3.2.6",
+    "CurrentHP": 27,
+    "StatBlock": {
+      "Id": "zfma1t3h",
+      "Name": "Mjenir",
+      "Path": "",
+      "Source": "Systems Reference Document",
+      "Type": "humanoid (Human)",
+      "HP": {
+        "Value": 27,
+        "Notes": "(5d8 + 5)"
+      },
+      "AC": {
+        "Value": 11,
+        "Notes": "(16 with _barkskin_)"
+      },
+      "InitiativeModifier": 0,
+      "InitiativeAdvantage": false,
+      "Speed": [
+        "walk 30 ft."
+      ],
+      "Abilities": {
+        "Str": 10,
+        "Dex": 12,
+        "Con": 13,
+        "Int": 12,
+        "Wis": 15,
+        "Cha": 11
+      },
+      "DamageVulnerabilities": [],
+      "DamageResistances": [],
+      "DamageImmunities": [],
+      "ConditionImmunities": [],
+      "Saves": [],
+      "Skills": [
+        {
+          "Name": "Medicine",
+          "Modifier": 4
+        },
+        {
+          "Name": "Nature",
+          "Modifier": 3
+        },
+        {
+          "Name": "Perception",
+          "Modifier": 4
+        },
+        {
+          "Name": "Survival",
+          "Modifier": 4
+        }
+      ],
+      "Senses": [
+        "passive Perception 14"
+      ],
+      "Languages": [
+        "Druidic plus any two languages"
+      ],
+      "Challenge": "2",
+      "Traits": [
+        {
+          "Name": "Spellcasting",
+          "Content": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:\n\n• Cantrips (at will): druidcraft, produce flame, shillelagh\n• 1st level (4 slots): entangle, longstrider, speak with animals, thunderwave\n• 2nd level (3 slots): animal messenger, barkskin"
+        }
+      ],
+      "Actions": [
+        {
+          "Name": "Quarterstaff",
+          "Content": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands."
+        }
+      ],
+      "BonusActions": [],
+      "Reactions": [],
+      "LegendaryActions": [],
+      "MythicActions": [],
+      "Description": "",
+      "Player": "",
+      "Version": "3.2.6",
+      "ImageURL": ""
+    },
+    "Notes": ""
+  },
   "PersistentCharacters.zmhhcqpi": {
     "Name": "Bartholomew Greyheart (Greedsfall - Jouster)",
     "Path": "Archive",
@@ -2003,11 +4460,11 @@
   },
   "PersistentCharacters.zp2v3886": {
     "Id": "zp2v3886",
-    "Version": "3.2.6",
+    "Version": "3.2.7",
     "Name": "Sora",
     "Path": "",
-    "LastUpdateMs": 1638544762039,
-    "CurrentHP": 15,
+    "LastUpdateMs": 1650243819830,
+    "CurrentHP": 25,
     "StatBlock": {
       "Id": "zp2v3886",
       "Name": "Sora",
@@ -2015,12 +4472,12 @@
       "Source": "",
       "Type": "Medium beast, unaligned",
       "HP": {
-        "Value": 20,
-        "Notes": ""
+        "Value": 30,
+        "Notes": "(4d8 + 8)"
       },
       "AC": {
-        "Value": 13,
-        "Notes": "natural armor"
+        "Value": 16,
+        "Notes": "Scale Mail: AC 14 + Dex (max 2)"
       },
       "InitiativeModifier": 0,
       "InitiativeAdvantage": false,
@@ -2030,7 +4487,7 @@
       "Abilities": {
         "Str": 12,
         "Dex": 15,
-        "Con": 12,
+        "Con": 14,
         "Int": 3,
         "Wis": 12,
         "Cha": 6
@@ -2042,7 +4499,7 @@
       "Saves": [
         {
           "Name": "Constitution",
-          "Modifier": 2
+          "Modifier": 4
         }
       ],
       "Skills": [
@@ -2051,7 +4508,7 @@
           "Modifier": 3
         },
         {
-          "Name": "Stealth",
+          "Name": "Stealth (Disadvantage in Scale Mail)",
           "Modifier": 4
         },
         {
@@ -2067,7 +4524,7 @@
         "Passive Perception (WIS) 13"
       ],
       "Languages": [],
-      "Challenge": "2",
+      "Challenge": "4",
       "Traits": [
         {
           "Name": "Keen Hearing and Sight",
@@ -2082,6 +4539,11 @@
         {
           "Name": "Bonus Proficiencies",
           "Content": "Sora is proficient with all Armor",
+          "Usage": ""
+        },
+        {
+          "Name": "Improved Critical",
+          "Content": "Sora's attack rolls score a critical hit on a roll of 19 or 20 on the d20.",
           "Usage": ""
         }
       ],
@@ -2110,7 +4572,7 @@
       "MythicActions": [],
       "Description": "",
       "Player": "player",
-      "Version": "3.2.6",
+      "Version": "3.2.7",
       "ImageURL": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5b570b28-d69c-446e-b924-3e789855484d%2FSora.jpg?table=block&id=afd18293-e3b3-4af1-8e3e-096666d58f60&spaceId=cdf14a20-1e9c-4bf5-8b47-217c26991671&width=2000&userId=fcce57b3-b69e-46cd-8b20-5f86f950eb92&cache=v2"
     },
     "Notes": ""
